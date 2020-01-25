@@ -1,0 +1,1 @@
+tg_ind contains INDEP retextures

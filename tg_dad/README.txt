@@ -1,0 +1,1 @@
+tg_dad contains the DADPAT texture pack.
