@@ -448,10 +448,6 @@ class cfgWeapons
 		class ItemInfo;
 	};
 	
-	/******************************
-	* Carrier Vest (LDF)
-	*******************************/
-	
 	class tg_v_flak_vest_black: Vest_Camo_Base
 	{
 		author="Trenchgun";
@@ -503,6 +499,12 @@ class cfgWeapons
 			"\tg\misc\Data\tg_m_v_flak_vest_khaki_co.paa"
 		};
 	};
+	
+	/******************************
+	* Carrier Vest (LDF)
+	*******************************/
+	
+	
 	class tg_v_modular_base: Vest_Camo_Base
 	{
 		DLC = "Enoch";
@@ -614,8 +616,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Vest (Black)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_black_ca.paa";
+
+		displayName = "Modular Carrier Vest (Black)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_black_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
@@ -626,8 +630,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Vest (Coyote)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_ca.paa";
+
+		displayName = "Modular Carrier Vest (Coyote)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_coyote_co.paa"
@@ -638,8 +644,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Vest (Khaki)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_ca.paa";
+
+		displayName = "Modular Carrier Vest (Khaki)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_khaki_co.paa"
@@ -650,8 +658,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Vest (Blue)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_ca.paa";
+
+		displayName = "Modular Carrier Vest (Blue)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_blue_co.paa"
@@ -662,8 +672,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Vest (Red)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_red_ca.paa";
+
+		displayName = "Modular Carrier Vest (Red)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_red_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_red_co.paa"
@@ -674,8 +686,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Lite (Black)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_black_light_ca.paa";
+
+		displayName = "Modular Carrier Lite (Black)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_black_light_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
@@ -686,8 +700,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Lite (Coyote)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_light_ca.paa";
+
+		displayName = "Modular Carrier Lite (Coyote)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_light_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_coyote_co.paa"
@@ -698,8 +714,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Lite (Khaki)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_light_ca.paa";
+
+		displayName = "Modular Carrier Lite (Khaki)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_light_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_khaki_co.paa"
@@ -710,8 +728,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Lite (Blue)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_light_ca.paa";
+
+		displayName = "Modular Carrier Lite (Blue)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_light_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_blue_co.paa"
@@ -722,8 +742,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier Lite (Red)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_red_light_ca.paa";
+
+		displayName = "Modular Carrier Lite (Red)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_red_light_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_red_co.paa"
@@ -734,8 +756,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier GL Rig (Black)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+
+		displayName = "Modular Carrier GL Rig (Black)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
@@ -746,8 +770,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier GL Rig (Coyote)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_heavy_ca.paa";
+
+		displayName = "Modular Carrier GL Rig (Coyote)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_heavy_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_coyote_co.paa"
@@ -758,8 +784,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier GL Rig (Khaki)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_heavy_ca.paa";
+
+		displayName = "Modular Carrier GL Rig (Khaki)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_heavy_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_khaki_co.paa"
@@ -770,8 +798,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier GL Rig (Blue)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_heavy_ca.paa";
+
+		displayName = "Modular Carrier GL Rig (Blue)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_heavy_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_blue_co.paa"
@@ -782,8 +812,10 @@ class cfgWeapons
 	{
 		author = "Trenchgun";
 		scope = 2;
-		displayName = "Modular Carrier GL Rig (Red)"
-		picture="\tg\misc\Data\UI\icon_m_v_modular_red_heavy_ca.paa";
+
+		displayName = "Modular Carrier GL Rig (Red)";
+		picture="\tg_misc\Data\UI\icon_m_v_modular_red_heavy_ca.paa";
+
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_red_co.paa"
