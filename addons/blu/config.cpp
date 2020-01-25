@@ -41,7 +41,7 @@ class CfgVehicles
 		_generalMacro="B_soldier_F";
 		scope=1;
 		displayName="Soldier (Black)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 		modelSides[]={3,1};
 		uniformClass="tg_u_black";
@@ -52,7 +52,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_black_co.paa"
+			"\tg\blu\Data\tg_b_u_black_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -71,7 +71,7 @@ class CfgVehicles
 		uniformClass="tg_u_black2";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_black2_co.paa"
+			"\tg\blu\Data\tg_b_u_black2_co.paa"
 		};
 	};
 	class tg_soldier_black2_rs: tg_soldier_black2
@@ -86,7 +86,7 @@ class CfgVehicles
 		uniformClass="tg_u_tan";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_tan_co.paa"
+			"\tg\blu\Data\tg_b_u_tan_co.paa"
 		};
 	};
 	class tg_soldier_tan_rs: tg_soldier_tan
@@ -101,7 +101,7 @@ class CfgVehicles
 		uniformClass="tg_u_erdl_arvn";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_erdl_arvn_co.paa"
+			"\tg\blu\Data\tg_b_u_erdl_arvn_co.paa"
 		};
 	};
 	class tg_soldier_erdl_arvn_rs: tg_soldier_erdl_arvn
@@ -116,7 +116,7 @@ class CfgVehicles
 		uniformClass="tg_u_erdl_oce";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_erdl_oce_co.paa"
+			"\tg\blu\Data\tg_b_u_erdl_oce_co.paa"
 		};
 	};
 	class tg_soldier_erdl_oce_rs: tg_soldier_erdl_oce
@@ -131,7 +131,7 @@ class CfgVehicles
 		uniformClass="tg_u_ghost";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_ghost_co.paa"
+			"\tg\blu\Data\tg_b_u_ghost_co.paa"
 		};
 	};
 	class tg_soldier_ghost_rs: tg_soldier_ghost
@@ -146,7 +146,7 @@ class CfgVehicles
 		uniformClass="tg_u_nwupat";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_nwupat_co.paa"
+			"\tg\blu\Data\tg_b_u_nwupat_co.paa"
 		};
 	};
 	class tg_soldier_nwupat_rs: tg_soldier_nwupat
@@ -190,7 +190,7 @@ class CfgVehicles
 		author="Trenchgun";
 		scope=1;
 		displayName="Soldier (MTP) (Black Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="a3\characters_F\BLUFOR\b_soldier_02.p3d";
 		modelSides[]={3,1};
 		uniformClass="tg_u_mcam_t_black";
@@ -269,7 +269,7 @@ class CfgVehicles
 		_generalMacro="B_soldier_survival_F";
 		scope=1;
 		displayName="Survival (Black/Tan)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="a3\characters_F_epa\BLUFOR\b_soldier_survival_01.p3d";
 		modelSides[]={3,1};
 		uniformClass="U_B_survival_uniform";
@@ -297,7 +297,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_black2_co.paa",
+			"\tg\blu\Data\tg_b_u_black2_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -313,7 +313,7 @@ class CfgVehicles
 		displayName="Survival (Black)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_black_co.paa",
+			"\tg\blu\Data\tg_b_u_black_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -323,7 +323,7 @@ class CfgVehicles
 		displayName="Survival (Tan)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_tan_co.paa",
+			"\tg\blu\Data\tg_b_u_tan_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -333,7 +333,7 @@ class CfgVehicles
 		displayName="Survival (ERDL ARVN)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_erdl_arvn_co.paa",
+			"\tg\blu\Data\tg_b_u_erdl_arvn_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -343,7 +343,7 @@ class CfgVehicles
 		displayName="Survival (ERDL Ocean)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_erdl_oce_co.paa",
+			"\tg\blu\Data\tg_b_u_erdl_oce_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_blue_co.paa"
 		};
@@ -353,7 +353,7 @@ class CfgVehicles
 		displayName="Survival (Ghost)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_ghost_co.paa",
+			"\tg\blu\Data\tg_b_u_ghost_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -363,7 +363,7 @@ class CfgVehicles
 		displayName="Survival (NWUPAT)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_blu\Data\tg_b_u_nwupat_co.paa",
+			"\tg\blu\Data\tg_b_u_nwupat_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -396,7 +396,7 @@ class CfgVehicles
         _generalMacro = "B_soldier_F"; 
         scope = 1; 
         displayName = "M90 (Parka 1)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\characters_f_enoch\Uniforms\Gorka_01_F.p3d";
 		modelSides[] = {3,2,1,0};
         uniformClass = "tg_u_parka_m90"; 	// class of uniform
@@ -408,11 +408,11 @@ class CfgVehicles
 		}; 
         hiddenSelectionsTextures[] = 
 		{ // set texture .paa
-			"\tg_blu\Data\tg_b_u_parka_m90_large_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m90_large_co.paa"
 		};	
         hiddenSelectionsMaterials[] = 
 		{ // set rvmat
-			"\tg_blu\Data\tg_b_u_parka.rvmat"
+			"\tg\blu\Data\tg_b_u_parka.rvmat"
 		};  
     };
 	
@@ -423,7 +423,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_m90_large";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_m90_large_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m90_large_co.paa"
 		};
 	};
 	*/
@@ -434,7 +434,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_m90_winter";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_m90_winter_large_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m90_winter_large_co.paa"
 		};
 	};
 	
@@ -445,7 +445,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_m90_winter_large";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_m90_winter_large_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m90_winter_large_co.paa"
 		};
 	};
 	*/
@@ -456,7 +456,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_chocchip";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_chocchip_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_chocchip_co.paa"
 		};
 	};
 	
@@ -466,7 +466,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_erdl";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_erdl_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_erdl_co.paa"
 		};
 	};
 	
@@ -476,7 +476,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_erdl_winter_bottom";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_erdl_winter_bottom_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_erdl_winter_bottom_co.paa"
 		};
 	};
 	
@@ -486,7 +486,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_erdl_winter_top";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_erdl_winter_top_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_erdl_winter_top_co.paa"
 		};
 	};
 	
@@ -496,7 +496,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_flektarn";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_flektarn_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_flektarn_co.paa"
 		};
 	};
 	
@@ -506,7 +506,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_flektarn_alt";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_flektarn_alt_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_flektarn_alt_co.paa"
 		};
 	};
 	
@@ -516,7 +516,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_m90_bottom_winter_top";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_m90_bottom_winter_top_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m90_bottom_winter_top_co.paa"
 		};
 	};
 	
@@ -526,7 +526,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_m90_top_winter_bottom";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_m90_top_winter_bottom_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m90_top_winter_bottom_co.paa"
 		};
 	};
 	
@@ -537,7 +537,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_marpat";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_marpat_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_marpat_co.paa"
 		};
 	};
 	*/
@@ -548,7 +548,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_marpat_desert";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_marpat_desert_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_marpat_desert_co.paa"
 		};
 	};
 	
@@ -558,7 +558,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_night_chocchip";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_night_chocchip_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_chocchip_co.paa"
 		};
 	};
 	
@@ -568,7 +568,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_night_erdl";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_night_erdl_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_erdl_co.paa"
 		};
 	};
 	
@@ -579,7 +579,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_night_marpat";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_night_marpat_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_marpat_co.paa"
 		};
 	};
 	*/
@@ -590,7 +590,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_night_marpat_desert";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_night_marpat_desert_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_marpat_desert_co.paa"
 		};
 	};
 	
@@ -601,7 +601,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_night_tricolor";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_night_tricolor_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_tricolor_co.paa"
 		};
 	};
 	
@@ -611,7 +611,7 @@ class CfgVehicles
 		uniformClass = "tg_u_parka_tricolor";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_blu\Data\tg_b_u_parka_tricolor_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_tricolor_co.paa"
 		};
 	};
 	*/
@@ -625,7 +625,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Black)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -639,7 +639,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Black) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -653,7 +653,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Black/Tan)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -667,7 +667,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Black/Tan) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -681,7 +681,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Tan)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -695,7 +695,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Tan) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -709,7 +709,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (ERDL ARVN)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -723,7 +723,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (ERDL ARVN) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -737,7 +737,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (ERDL Ocean)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -751,7 +751,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (ERDL Ocean) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -765,7 +765,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Ghost)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -779,7 +779,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (Ghost) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -793,7 +793,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (NWUPAT)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -807,7 +807,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Fatigues (NWUPAT) (RS)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -821,7 +821,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Sage)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -835,7 +835,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Recon Fatigues (Sage)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -849,7 +849,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (ERDL)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -863,7 +863,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Recon Fatigues (ERDL)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -877,7 +877,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (MTP) (Black Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -891,7 +891,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="CTRG Combat Uniform (Black Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -905,7 +905,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (ERDL) (Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -919,7 +919,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Sage) (Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -933,7 +933,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues (Tropic) (Black Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -947,7 +947,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="CTRG Stealth Uniform (Black Tee)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -965,7 +965,7 @@ class cfgWeapons
 		author="Trenchgun";
 		scope=2;
 		displayName="Survival Fatigues (Black/Tan)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -979,7 +979,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (Black)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -993,7 +993,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (Tan)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1007,7 +1007,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (ERDL_ARVN)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1021,7 +1021,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (ERDL Ocean)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1035,7 +1035,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (Ghost)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1049,7 +1049,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (NWUPAT)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1063,7 +1063,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (Sage)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1077,7 +1077,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Survival Fatigues (ERDL)";
-		picture="\tg_blu\Data\logo_small.paa";
+		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
 		{
@@ -1093,7 +1093,7 @@ class cfgWeapons
 		dlc=""
         scope = 2; 
         displayName = "M90 (Parka)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1108,7 +1108,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "M90 (Parka 2)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";		
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1123,7 +1123,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "M90 (Parka Winter)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1138,7 +1138,7 @@ class cfgWeapons
     { 
         scope = 2;
         displayName = "M90 Winter (Parka 2)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1153,7 +1153,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Chocolate Chip)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1167,7 +1167,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (ERDL)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1181,7 +1181,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (ERDL/Winter)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1195,7 +1195,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Winter/ERDL)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1209,7 +1209,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Flektarn)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1223,7 +1223,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Flektarn Alt.)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1237,7 +1237,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "M90 (Parka Winter/M90)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1251,7 +1251,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "M90 (Parka M90/Winter)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1266,7 +1266,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (MARPAT Woodland)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1281,7 +1281,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (MARPAT Desert)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1295,7 +1295,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Night/Chocolate Chip)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1309,7 +1309,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Night/ERDL)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1324,7 +1324,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Night/MARPAT Woodland)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1339,7 +1339,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Night/MARPAT Desert)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1354,7 +1354,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Night/Tricolor)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
@@ -1368,7 +1368,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Parka (Triclor)";
-		picture = "\tg_blu\Data\logo_small.paa";
+		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";

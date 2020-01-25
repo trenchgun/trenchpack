@@ -39,7 +39,7 @@ class CfgVehicles
 		_generalMacro="B_soldier_F";
 		scope=1;
 		displayName="Commando Sweater (Black)";
-		picture="\tg_misc\Data\logo_small.paa";
+		picture="\tg\misc\Data\logo_small.paa";
 		model="\A3\characters_f_bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
 		modelSides[]={3,1};
 		uniformClass="tg_u_swtr_black";
@@ -50,7 +50,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_black_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_black_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -63,7 +63,7 @@ class CfgVehicles
 		uniformClass="tr_u_swtr_blue";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_blue_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_blue_co.paa"
 		};
 	};
 	class tg_commando_erdl_arvn: tg_commando_black
@@ -72,7 +72,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_erdl_arvn";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_erdl_arvn_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_erdl_arvn_co.paa"
 		};
 	};
 	class tg_commando_erdl: tg_commando_black
@@ -81,7 +81,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_erdl";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_erdl_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_erdl_co.paa"
 		};
 	};
 	class tg_commando_erdl_oce: tg_commando_black
@@ -90,7 +90,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_erdl_oce";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_erdl_oce_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_erdl_oce_co.paa"
 		};
 	};
 	class tg_commando_ghost: tg_commando_black
@@ -99,7 +99,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_ghost";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_ghost_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_ghost_co.paa"
 		};
 	};
 	
@@ -109,7 +109,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_red";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_red_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_red_co.paa"
 		};
 	};
 	
@@ -119,7 +119,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_navy";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_navy_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_navy_co.paa"
 		};
 	};
 	
@@ -129,7 +129,7 @@ class CfgVehicles
 		uniformClass="tg_u_swtr_brown";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_i_u_swtr_brown_co.paa"
+			"\tg\misc\Data\tg_i_u_swtr_brown_co.paa"
 		};
 	};
 	
@@ -139,7 +139,7 @@ class CfgVehicles
 		_generalMacro="B_soldier_F";
 		scope=1;
 		displayName="Rifleman (Tan)";
-		picture="\tg_misc\Data\logo_small.paa";
+		picture="\tg\misc\Data\logo_small.paa";
 		model="\A3\characters_f_beta\INDEP\ia_soldier_01.p3d";
 		modelSides[]={3,1};
 		uniformClass="tg_u_aaf_tan";
@@ -174,7 +174,7 @@ class CfgVehicles
 		_generalMacro="B_soldier_F";
 		scope=1;
 		displayName="Overalls (Olive)";
-		picture="\tg_misc\Data\logo_small.paa";
+		picture="\tg\misc\Data\logo_small.paa";
 		model="\A3\characters_f_tank\Uniforms\U_Tank_crew_F.p3d";
 		modelSides[]={3,1};
 		uniformClass="tg_u_overalls_od";
@@ -185,7 +185,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_u_overalls_od_co.paa"
+			"\tg\misc\Data\tg_u_overalls_od_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -199,7 +199,7 @@ class CfgVehicles
 		uniformClass="tg_u_overalls_tan";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_u_overalls_tan_co.paa"
+			"\tg\misc\Data\tg_u_overalls_tan_co.paa"
 		};
 	};
 	class tg_overalls_khaki: tg_overalls_od
@@ -209,7 +209,7 @@ class CfgVehicles
 		uniformClass="tg_u_overalls_khaki";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_u_overalls_khaki_co.paa"
+			"\tg\misc\Data\tg_u_overalls_khaki_co.paa"
 		};
 	};
 	class tg_overalls_black: tg_overalls_od
@@ -219,7 +219,7 @@ class CfgVehicles
 		uniformClass="tg_u_overalls_black";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_u_overalls_black_co.paa"
+			"\tg\misc\Data\tg_u_overalls_black_co.paa"
 		};
 	};
 };
@@ -232,7 +232,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (Black)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_black_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_black_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -246,7 +246,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (Blue)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_blue_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_blue_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -260,7 +260,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (ERDL ARVN)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_black_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_black_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -274,7 +274,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (ERDL)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_olive_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_olive_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -288,7 +288,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (ERDL Ocean)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_navy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_navy_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -302,7 +302,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (Ghost)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_navy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_navy_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -317,7 +317,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (Red)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_red_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_red_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -332,7 +332,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (Navy)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_navy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_navy_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -347,7 +347,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Commando Sweater (Brown)";
-		picture="\tg_misc\Data\UI\icon_i_u_swtr_brown_ca.paa";
+		picture="\tg\misc\Data\UI\icon_i_u_swtr_brown_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -362,7 +362,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues [AAF] (Tan)";
-		picture="\tg_misc\Data\logo_small.paa";
+		picture="\tg\misc\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -376,7 +376,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Combat Fatigues [AAF] (Tan, Rolled Sleeves)";
-		picture="\tg_misc\Data\logo_small.paa";
+		picture="\tg\misc\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -390,7 +390,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Overalls (Olive)";
-		picture="\tg_misc\Data\UI\icon_u_overalls_olive_ca.paa";
+		picture="\tg\misc\Data\UI\icon_u_overalls_olive_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -404,7 +404,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Overalls (Tan)";
-		picture="\tg_misc\Data\UI\icon_u_overalls_coyote_ca.paa";
+		picture="\tg\misc\Data\UI\icon_u_overalls_coyote_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -418,7 +418,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Overalls (Khaki)";
-		picture="\tg_misc\Data\UI\icon_u_overalls_khaki_ca.paa";
+		picture="\tg\misc\Data\UI\icon_u_overalls_khaki_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -432,7 +432,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="Overalls (Black)";
-		picture="\tg_misc\Data\UI\icon_u_overalls_black_ca.paa";
+		picture="\tg\misc\Data\UI\icon_u_overalls_black_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -457,11 +457,11 @@ class cfgWeapons
 		author="Trenchgun";
 		scope=2;
 		displayName="Flak Vest (Black)";
-		picture="\tg_misc\Data\logo_small.paa";
+		picture="\tg\misc\Data\logo_small.paa";
 		model="\A3\Characters_F_epc\Civil\equip_press_vest_01";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_flak_vest_black_co.paa"
+			"\tg\misc\Data\tg_m_v_flak_vest_black_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -484,7 +484,7 @@ class cfgWeapons
 		displayName="Flak Vest (Coyote)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_flak_vest_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_flak_vest_coyote_co.paa"
 		};
 	};
 	class tg_v_flak_vest_olive: tg_v_flak_vest_black
@@ -492,7 +492,7 @@ class cfgWeapons
 		displayName="Flak Vest (Olive)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_flak_vest_olive_co.paa"
+			"\tg\misc\Data\tg_m_v_flak_vest_olive_co.paa"
 		};
 	};
 	class tg_v_flak_vest_khaki: tg_v_flak_vest_black
@@ -500,7 +500,7 @@ class cfgWeapons
 		displayName="Flak Vest (Khaki)";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_flak_vest_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_flak_vest_khaki_co.paa"
 		};
 	};
 	class tg_v_modular_base: Vest_Camo_Base
@@ -615,10 +615,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Vest (Black)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_black_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_black_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
 		};
 	};
 	
@@ -627,10 +627,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Vest (Coyote)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_coyote_co.paa"
 		};
 	};
 	
@@ -639,10 +639,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Vest (Khaki)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_khaki_co.paa"
 		};
 	};
 	
@@ -651,10 +651,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Vest (Blue)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_blue_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_blue_co.paa"
 		};
 	};
 	
@@ -663,10 +663,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Vest (Red)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_red_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_red_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_red_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_red_co.paa"
 		};
 	};
 	
@@ -675,10 +675,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Lite (Black)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_black_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_light_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_black_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
 		};
 	};
 	
@@ -687,10 +687,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Lite (Coyote)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_light_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_coyote_co.paa"
 		};
 	};
 	
@@ -699,10 +699,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Lite (Khaki)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_light_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_khaki_co.paa"
 		};
 	};
 	
@@ -711,10 +711,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Lite (Blue)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_light_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_blue_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_blue_co.paa"
 		};
 	};
 	
@@ -723,10 +723,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier Lite (Red)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_red_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_red_light_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_red_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_red_co.paa"
 		};
 	};
 	
@@ -735,10 +735,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier GL Rig (Black)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_black_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
 		};
 	};
 	
@@ -747,10 +747,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier GL Rig (Coyote)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_heavy_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_coyote_co.paa"
 		};
 	};
 	
@@ -759,10 +759,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier GL Rig (Khaki)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_heavy_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_khaki_co.paa"
 		};
 	};
 	
@@ -771,10 +771,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier GL Rig (Blue)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_heavy_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_blue_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_blue_co.paa"
 		};
 	};
 	
@@ -783,10 +783,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Modular Carrier GL Rig (Red)"
-		picture="\tg_misc\Data\UI\icon_m_v_modular_red_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_red_heavy_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_misc\Data\tg_m_v_modular_red_co.paa"
+			"\tg\misc\Data\tg_m_v_modular_red_co.paa"
 		};
 	};
 	
@@ -805,7 +805,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_black_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_rig_black_co.paa",
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -897,8 +897,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_olive_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_olive_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_olive_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_olive_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -964,10 +964,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest Lite (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_lite_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_lite_black_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_black_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_black_co.paa"
 		};
 	};
 	
@@ -976,10 +976,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_mid_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_mid_black_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_black_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_black_co.paa"
 		};
 	};
 	
@@ -988,11 +988,11 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest GL (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_gl_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_gl_black_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_black_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_black_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_black_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_black_co.paa"
 		};
 	};
 	
@@ -1002,10 +1002,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest Lite (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_lite_coyote_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_lite_coyote_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_coyote_co.paa"
 		};
 	};
 	
@@ -1014,10 +1014,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_mid_coyote_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_mid_coyote_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_coyote_co.paa"
 		};
 	};
 	
@@ -1026,11 +1026,11 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest GL (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_gl_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_gl_black_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_coyote_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_coyote_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_coyote_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_coyote_co.paa"
 		};
 	};
 	
@@ -1041,10 +1041,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest Lite (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_lite_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_lite_olive_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_olive_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_olive_co.paa"
 		};
 	};
 	
@@ -1053,10 +1053,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_mid_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_mid_olive_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_olive_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_olive_co.paa"
 		};
 	};
 	
@@ -1065,11 +1065,11 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest GL (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_gl_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_gl_olive_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_olive_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_olive_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_olive_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_olive_co.paa"
 		};
 	};
 	
@@ -1079,10 +1079,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest Lite (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_lite_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_lite_blue_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_blue_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_blue_co.paa"
 		};
 	};
 	
@@ -1091,10 +1091,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_mid_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_mid_blue_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_blue_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_blue_co.paa"
 		};
 	};
 	
@@ -1103,11 +1103,11 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest GL (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_gl_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_gl_blue_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_blue_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_blue_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_blue_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_blue_co.paa"
 		};
 	};
 	
@@ -1117,10 +1117,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest Lite (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_lite_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_lite_khaki_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_khaki_co.paa"
 		};
 	};
 	
@@ -1129,10 +1129,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_mid_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_mid_khaki_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_khaki_co.paa"
 		};
 	};
 	
@@ -1141,11 +1141,11 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest GL (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_gl_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_gl_khaki_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_khaki_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_khaki_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_khaki_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_khaki_co.paa"
 		};
 	};
 	
@@ -1155,10 +1155,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest Lite (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_lite_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_lite_red_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_red_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_red_co.paa"
 		};
 	};
 	
@@ -1167,10 +1167,10 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_mid_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_mid_red_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_red_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_red_co.paa"
 		};
 	};
 	
@@ -1179,11 +1179,11 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		displayName = "Carrier Vest GL (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_v_carrier_gl_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_v_carrier_gl_red_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_misc\Data\tg_m_v_carrier_rig_red_co.paa",
-			"\tg_misc\Data\tg_m_v_carrier_shoulder_red_co.paa"
+			"\tg\misc\Data\tg_m_v_carrier_rig_red_co.paa",
+			"\tg\misc\Data\tg_m_v_carrier_shoulder_red_co.paa"
 		};
 	};
 	
@@ -1283,10 +1283,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_olive_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_olive_co.paa"
 		};
 	};
 	
@@ -1296,10 +1296,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Headset) (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_olive_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_olive_co.paa"
 		};
 	};
 	
@@ -1309,10 +1309,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Ears) (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_olive_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_olive_co.paa"
 		};
 	};
 	
@@ -1322,10 +1322,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Chops) (Olive)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_olive_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_olive_co.paa"
 		};
 	};
 	
@@ -1336,10 +1336,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_black_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_black_co.paa"
 		};
 	};
 	
@@ -1349,10 +1349,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Headset) (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_black_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_black_co.paa"
 		};
 	};
 	
@@ -1362,10 +1362,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Ears) (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_ears_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_black_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_black_co.paa"
 		};
 	};
 	
@@ -1375,10 +1375,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Chops) (Black)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_chops_black_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_black_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_black_co.paa"
 		};
 	};
 	
@@ -1389,10 +1389,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_coyote_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_coyote_co.paa"
 		};
 	};
 	
@@ -1402,10 +1402,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Headset) (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_coyote_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_coyote_co.paa"
 		};
 	};
 	
@@ -1415,10 +1415,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Ears) (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_ears_coyote_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_coyote_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_coyote_co.paa"
 		};
 	};
 	
@@ -1428,10 +1428,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Chops) (Coyote)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_chops_coyote_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_coyote_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_coyote_co.paa"
 		};
 	};
 	
@@ -1442,10 +1442,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_khaki_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_khaki_co.paa"
 		};
 	};
 	
@@ -1455,10 +1455,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Headset) (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_khaki_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_khaki_co.paa"
 		};
 	};
 	
@@ -1468,10 +1468,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Ears) (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_ears_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_khaki_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_khaki_co.paa"
 		};
 	};
 	
@@ -1481,10 +1481,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Chops) (Khaki)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_chops_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_khaki_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_khaki_co.paa"
 		};
 	};
 	
@@ -1495,10 +1495,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_blue_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_blue_co.paa"
 		};
 	};
 	
@@ -1508,10 +1508,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Headset) (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_blue_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_blue_co.paa"
 		};
 	};
 	
@@ -1521,10 +1521,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Ears) (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_ears_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_blue_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_blue_co.paa"
 		};
 	};
 	
@@ -1534,10 +1534,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Chops) (Blue)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_chops_blue_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_blue_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_blue_co.paa"
 		};
 	};
 	
@@ -1548,10 +1548,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_red_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_red_co.paa"
 		};
 	};
 	
@@ -1561,10 +1561,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Headset) (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_red_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_red_co.paa"
 		};
 	};
 	
@@ -1574,10 +1574,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Ears) (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_ears_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_red_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_red_co.paa"
 		};
 	};
 	
@@ -1587,10 +1587,10 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "Advanced Modular Helmet (Chops) (Red)";
-		picture = "\tg_misc\Data\UI\icon_m_h_fast_chops_red_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
-			"\tg_misc\Data\tg_m_h_fast_red_co.paa"
+			"\tg\misc\Data\tg_m_h_fast_red_co.paa"
 		};
 	};
 	

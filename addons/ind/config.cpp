@@ -54,8 +54,8 @@ class CfgVehicles
 	{
 		author="Trenchgun";
 		scope=0;
-		picture="\tg_ind\Data\logo_small.paa";
-		model="\tg_ind\U_UNTUCKED.p3d";
+		picture="\tg\ind\Data\logo_small.paa";
+		model="\tg\ind\U_UNTUCKED.p3d";
 		modelSides[]={3,1};
 		hiddenSelections[]=
 		{
@@ -73,9 +73,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_black";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_black_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_black_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_black_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_black_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -86,9 +86,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_olive";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_olive_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_olive_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_olive_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_olive_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -99,9 +99,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_khaki";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_khaki_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_khaki_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_khaki_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_khaki_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -112,9 +112,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_coyote";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_coyote_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_coyote_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_coyote_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_coyote_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -126,8 +126,8 @@ class CfgVehicles
 	{
 		author="Trenchgun";
 		scope=0;
-		picture="\tg_ind\Data\logo_small.paa";
-		model="\tg_ind\U_UNTUCKED_SHORT_SLEEVE.p3d";
+		picture="\tg\ind\Data\logo_small.paa";
+		model="\tg\ind\U_UNTUCKED_SHORT_SLEEVE.p3d";
 		modelSides[]={3,1};
 		hiddenSelections[]=
 		{
@@ -145,9 +145,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_rs_black";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_black_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_black_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_black_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_black_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -158,9 +158,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_rs_olive";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_olive_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_olive_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_olive_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_olive_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -171,9 +171,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_rs_khaki";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_khaki_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_khaki_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_khaki_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_khaki_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -184,9 +184,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_rs_coyote";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_shirt_coyote_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_coyote_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_shirt_coyote_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_coyote_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	*/
@@ -199,7 +199,7 @@ class CfgVehicles
 	{
 		author="Trenchgun";
 		scope=0;
-		picture="\tg_ind\Data\logo_small.paa";
+		picture="\tg\ind\Data\logo_small.paa";
 		model="\A3\characters_f_enoch\Uniforms\I_E_Soldier_01_TankTop_F.p3d";
 		modelSides[]={3,1};
 		hiddenSelections[]=
@@ -218,9 +218,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_tanktop_black";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_tanktop_white_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_black_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_tanktop_white_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_black_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -231,9 +231,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_tanktop_olive";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_tanktop_black_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_olive_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_tanktop_black_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_olive_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -244,9 +244,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_tanktop_khaki";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_tanktop_olive_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_khaki_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_tanktop_olive_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_khaki_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 	
@@ -257,9 +257,9 @@ class CfgVehicles
 		uniformClass="tg_u_fatigues_tanktop_coyote";
 		hiddenSelectionsTextures[]=
 		{
-			"\tg_ind\Data\tg_i_u_tanktop_black_co.paa",
-			"\tg_ind\Data\tg_i_u_pants_coyote_co.paa",
-			"\tg_ind\Data\tg_i_u_gloves_black_co.paa"
+			"\tg\ind\Data\tg_i_u_tanktop_black_co.paa",
+			"\tg\ind\Data\tg_i_u_pants_coyote_co.paa",
+			"\tg\ind\Data\tg_i_u_gloves_black_co.paa"
 		};
 	};
 
@@ -283,7 +283,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Black)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -297,7 +297,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Olive)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -311,7 +311,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Khaki)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -325,7 +325,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Coyote)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -343,7 +343,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Black) (RS)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -357,7 +357,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Olive) (RS)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -371,7 +371,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Khaki) (RS)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -385,7 +385,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Coyote) (RS)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -404,7 +404,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Black) (Tank Top)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -418,7 +418,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Olive) (Tank Top)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -432,7 +432,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Khaki) (Tank Top)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -446,7 +446,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Combat Fatigues (Coyote) (Tank Top)";
-		picture = "\tg_ind\Data\logo_small.paa";
+		picture = "\tg\ind\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";

@@ -53,7 +53,7 @@ class CfgVehicles
 		DLC = "Enoch";
         scope = 1; 
         displayName = "Gorka (Afghan)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\characters_f_enoch\Uniforms\Gorka_01_F.p3d";
 		modelSides[] = {3,2,1,0};
         uniformClass = "tg_u_gorka_afghan"; 	// class of uniform
@@ -65,11 +65,11 @@ class CfgVehicles
 		}; 
         hiddenSelectionsTextures[] = 
 		{ // set texture .paa
-			"\tg_opf\Data\tg_o_u_gorka_afghan_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_afghan_co.paa"
 		};	
         hiddenSelectionsMaterials[] = 
 		{ // set rvmat
-			"\tg_opf\Data\tg_o_u_gorka.rvmat"
+			"\tg\opf\Data\tg_o_u_gorka.rvmat"
 		};  
     };
 
@@ -80,7 +80,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_blue_black";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_blue_black_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_blue_black_co.paa"
 		};
 	};
 	
@@ -91,7 +91,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_blue";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_blue_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_blue_co.paa"
 		};
 	};
 	
@@ -102,7 +102,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_cbrn_black";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_cbrn_black_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_cbrn_black_co.paa"
 		};
 	};
 	
@@ -113,7 +113,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_cbrn_black_alt";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_cbrn_black_alt_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_cbrn_black_alt_co.paa"
 		};
 	};
 	
@@ -124,7 +124,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_cbrn";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_cbrn_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_cbrn_co.paa"
 		};
 	};
 	
@@ -135,7 +135,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_grey";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_grey_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_grey_co.paa"
 		};
 	};
 	
@@ -145,7 +145,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_klmk";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_klmk_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_klmk_co.paa"
 		};
 	};
 	
@@ -155,7 +155,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_klmk_alt";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_klmk_alt_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_klmk_alt_co.paa"
 		};
 	};
 	
@@ -165,7 +165,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_klmk_reverse";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_klmk_reverse_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_klmk_reverse_co.paa"
 		};
 	};
 	
@@ -175,7 +175,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_klmk_reverse_alt";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_klmk_reverse_alt_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_klmk_reverse_alt_co.paa"
 		};
 	};
 	
@@ -185,7 +185,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_partizan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_partizan_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_partizan_co.paa"
 		};
 	};
 	
@@ -195,7 +195,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_partizan_alt";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_partizan_alt_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_partizan_alt_co.paa"
 		};
 	};
 	
@@ -205,7 +205,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_partizan_autumn";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_partizan_autumn_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_partizan_autumn_co.paa"
 		};
 	};
 	
@@ -215,7 +215,7 @@ class CfgVehicles
 		uniformClass = "tg_u_gorka_partizan_autumn_alt";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_gorka_partizan_autumn_alt_co.paa"
+			"\tg\opf\Data\tg_o_u_gorka_partizan_autumn_alt_co.paa"
 		};
 	};
 	
@@ -226,7 +226,7 @@ class CfgVehicles
         _generalMacro = "O_soldier_F"; 
         scope = 1; 
         displayName = "CSAT Fatigues (Black)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\characters_f\OPFOR\o_soldier_01.p3d";
 		modelSides[] = {3,2,1,0};
         uniformClass = "tg_u_csat_black"; 	// class of uniform
@@ -237,11 +237,11 @@ class CfgVehicles
 		}; 
         hiddenSelectionsTextures[] = 
 		{ // set texture .paa
-			"\tg_opf\Data\tg_o_u_csat_black_co.paa"
+			"\tg\opf\Data\tg_o_u_csat_black_co.paa"
 		};	
         hiddenSelectionsMaterials[] = 
 		{ // set rvmat
-			"\tg_opf\Data\tg_o_u_csat.rvmat"
+			"\tg\opf\Data\tg_o_u_csat.rvmat"
 		};  
     };
 	
@@ -251,7 +251,7 @@ class CfgVehicles
 		uniformClass = "tg_u_csat_blue";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_csat_blue_co.paa"
+			"\tg\opf\Data\tg_o_u_csat_blue_co.paa"
 		};
 	};
 	
@@ -261,7 +261,7 @@ class CfgVehicles
 		uniformClass = "tg_u_csat_yellow";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_opf\Data\tg_o_u_csat_yellow_co.paa"
+			"\tg\opf\Data\tg_o_u_csat_yellow_co.paa"
 		};
 	};
 	*/
@@ -284,7 +284,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Afghan)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -298,7 +298,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Blue/Black)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -312,7 +312,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Blue)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -326,7 +326,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (CBRN Black)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -340,7 +340,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (CBRN Black) (alt)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -354,7 +354,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (CBRN)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -368,7 +368,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Grey)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -382,7 +382,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (KLMK)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -396,7 +396,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (KLMK) (alt)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -410,7 +410,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (KLMK Reverse)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -424,7 +424,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (KLMK Reverse) (alt)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -438,7 +438,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Partizan)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -452,7 +452,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Partizan) (alt)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -466,7 +466,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Partizan Autumn)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -480,7 +480,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "Gorka (Partizan Autumn) (alt)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -495,7 +495,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "CSAT Fatigues (Black)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -509,7 +509,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "CSAT Fatigues (Blue)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -523,7 +523,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "CSAT Fatigues (CBRN)";
-		picture = "\tg_opf\Data\logo_small.paa";
+		picture = "\tg\opf\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";

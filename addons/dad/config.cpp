@@ -53,7 +53,7 @@ class CfgVehicles
         _generalMacro = "B_soldier_F"; 
         scope = 1; 
         displayName = "DADPAT (Hawaiian, Blue)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\characters_f\Civil\c_poloshirtpants.p3d";
 		modelSides[] = {3,2,1,0};
         uniformClass = "tg_u_dadpat_blue_hi"; 	// class of uniform
@@ -64,7 +64,7 @@ class CfgVehicles
 		}; 
         hiddenSelectionsTextures[] = 
 		{ // set texture .paa
-			"\tg_dad\Data\tg_u_dadpat_1_01_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_01_co.paa"
 		};	
         hiddenSelectionsMaterials[] = 
 		{ // set rvmat
@@ -78,7 +78,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_white";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\ig_poloshirt_1_co.paa"
+			"\tg\dad\Data\ig_poloshirt_1_co.paa"
 		};
 	};
 	
@@ -88,7 +88,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_brown";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\ig_poloshirt_2_co.paa"
+			"\tg\dad\Data\ig_poloshirt_2_co.paa"
 		};
 	};
 
@@ -98,7 +98,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_02_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_02_co.paa"
 		};
 	};
 	
@@ -108,7 +108,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_grn_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_03_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_03_co.paa"
 		};
 	};
 	
@@ -118,7 +118,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_prp_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_04_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_04_co.paa"
 		};
 	};
 	
@@ -128,7 +128,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tacky";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_05_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_05_co.paa"
 		};
 	};
 	
@@ -138,7 +138,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_floral";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_06_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_06_co.paa"
 		};
 	};
 	
@@ -148,7 +148,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_orng_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_07_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_07_co.paa"
 		};
 	};
 	
@@ -158,7 +158,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_blue_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_08_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_08_co.paa"
 		};
 	};
 	
@@ -168,7 +168,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_09_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_09_co.paa"
 		};
 	};
 	
@@ -178,7 +178,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_grn_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_10_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_10_co.paa"
 		};
 	};
 	
@@ -188,7 +188,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_herringbone";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_11_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_11_co.paa"
 		};
 	};
 	
@@ -198,7 +198,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_flamingo_dark";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_12_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_12_co.paa"
 		};
 	};
 	
@@ -208,7 +208,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_orng_grn_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_13_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_13_co.paa"
 		};
 	};
 	
@@ -218,7 +218,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_grn_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_14_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_14_co.paa"
 		};
 	};
 	
@@ -228,7 +228,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_sunset";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_15_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_15_co.paa"
 		};
 	};
 	
@@ -238,7 +238,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_pineapple";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_16_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_16_co.paa"
 		};
 	};
 	
@@ -248,7 +248,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_blu_yllw_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_17_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_17_co.paa"
 		};
 	};
 	
@@ -259,7 +259,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tiki";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_18_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_18_co.paa"
 		};
 	};
 	*/
@@ -270,7 +270,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_orng_grn_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_19_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_19_co.paa"
 		};
 	};
 	
@@ -280,7 +280,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_flamingo_light";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_20_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_20_co.paa"
 		};
 	};
 	
@@ -290,7 +290,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_dark_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_21_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_21_co.paa"
 		};
 	};
 	
@@ -300,7 +300,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_gold_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_22_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_22_co.paa"
 		};
 	};
 	
@@ -310,7 +310,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_pink_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_23_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_23_co.paa"
 		};
 	};
 	
@@ -320,7 +320,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_bw_plaid_1";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_24_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_24_co.paa"
 		};
 	};
 	
@@ -330,7 +330,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_bw_plaid_2";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_25_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_25_co.paa"
 		};
 	};
 	
@@ -340,7 +340,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_prp_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_26_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_26_co.paa"
 		};
 	};
 	
@@ -350,7 +350,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_yllw_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_27_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_27_co.paa"
 		};
 	};
 	
@@ -360,7 +360,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_cream_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_28_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_28_co.paa"
 		};
 	};
 	
@@ -370,7 +370,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_scotland_red_grn_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_29_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_29_co.paa"
 		};
 	};
 	
@@ -380,7 +380,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tattersall";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_30_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_30_co.paa"
 		};
 	};
 	
@@ -390,7 +390,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_tartan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_31_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_31_co.paa"
 		};
 	};
 	
@@ -400,7 +400,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_buffalo";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_32_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_32_co.paa"
 		};
 	};
 	
@@ -410,7 +410,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_grn_tartan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_33_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_33_co.paa"
 		};
 	};
 	
@@ -420,7 +420,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_grn_buffalo";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_34_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_34_co.paa"
 		};
 	};
 	
@@ -430,7 +430,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_sawtooth";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_35_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_35_co.paa"
 		};
 	};
 	
@@ -440,7 +440,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_grn_sawtooth";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_36_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_36_co.paa"
 		};
 	};
 	
@@ -450,7 +450,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_red_check";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_37_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_37_co.paa"
 		};
 	};
 	
@@ -460,7 +460,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_grn_check";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_1_38_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_1_38_co.paa"
 		};
 	};
 	
@@ -474,7 +474,7 @@ class CfgVehicles
         _generalMacro = "B_soldier_F"; 
         scope = 1; 
         displayName = "DADPAT (Shorts) (Hawaiian, Blue)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\characters_f\Civil\c_poloshirt.p3d";
 		modelSides[] = {3,2,1,0};
         uniformClass = "tg_u_dadpat_shorts_blue_hi"; 	// class of uniform
@@ -485,7 +485,7 @@ class CfgVehicles
 		}; 
         hiddenSelectionsTextures[] = 
 		{ // set texture .paa
-			"\tg_dad\Data\tg_u_dadpat_3_01_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_01_co.paa"
 		};	
         hiddenSelectionsMaterials[] = 
 		{ // set rvmat
@@ -499,7 +499,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_02_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_02_co.paa"
 		};
 	};
 	
@@ -509,7 +509,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_grn_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_03_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_03_co.paa"
 		};
 	};
 	
@@ -519,7 +519,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_prp_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_04_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_04_co.paa"
 		};
 	};
 	
@@ -529,7 +529,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_tacky";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_05_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_05_co.paa"
 		};
 	};
 	
@@ -539,7 +539,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_floral";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_06_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_06_co.paa"
 		};
 	};
 	
@@ -549,7 +549,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_orng_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_07_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_07_co.paa"
 		};
 	};
 	
@@ -559,7 +559,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_blue_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_08_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_08_co.paa"
 		};
 	};
 	
@@ -569,7 +569,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_09_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_09_co.paa"
 		};
 	};
 	
@@ -579,7 +579,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_grn_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_10_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_10_co.paa"
 		};
 	};
 	
@@ -589,7 +589,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_herringbone";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_11_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_11_co.paa"
 		};
 	};
 	
@@ -599,7 +599,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_flamingo_dark";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_12_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_12_co.paa"
 		};
 	};
 	
@@ -609,7 +609,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_orng_grn_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_13_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_13_co.paa"
 		};
 	};
 	
@@ -619,7 +619,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_grn_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_14_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_14_co.paa"
 		};
 	};
 	
@@ -629,7 +629,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_sunset";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_15_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_15_co.paa"
 		};
 	};
 	
@@ -639,7 +639,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_pineapple";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_16_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_16_co.paa"
 		};
 	};
 	
@@ -649,7 +649,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_blu_yllw_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_17_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_17_co.paa"
 		};
 	};
 	
@@ -660,7 +660,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_tiki";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_18_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_18_co.paa"
 		};
 	};
 	*/
@@ -671,7 +671,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_orng_grn_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_19_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_19_co.paa"
 		};
 	};
 	
@@ -681,7 +681,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_flamingo_light";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_20_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_20_co.paa"
 		};
 	};
 	
@@ -691,7 +691,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_dark_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_21_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_21_co.paa"
 		};
 	};
 	
@@ -701,7 +701,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_gold_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_22_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_22_co.paa"
 		};
 	};
 	
@@ -711,7 +711,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_pink_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_23_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_23_co.paa"
 		};
 	};
 	
@@ -721,7 +721,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_bw_plaid_1";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_24_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_24_co.paa"
 		};
 	};
 	
@@ -731,7 +731,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_bw_plaid_2";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_25_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_25_co.paa"
 		};
 	};
 	
@@ -741,7 +741,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_prp_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_26_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_26_co.paa"
 		};
 	};
 	
@@ -751,7 +751,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_yllw_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_27_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_27_co.paa"
 		};
 	};
 	
@@ -761,7 +761,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_cream_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_28_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_28_co.paa"
 		};
 	};
 	
@@ -771,7 +771,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_scotland_red_grn_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_29_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_29_co.paa"
 		};
 	};
 	
@@ -781,7 +781,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_tattersall";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_30_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_30_co.paa"
 		};
 	};
 	
@@ -791,7 +791,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_tartan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_31_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_31_co.paa"
 		};
 	};
 	
@@ -801,7 +801,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_buffalo";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_32_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_32_co.paa"
 		};
 	};
 	
@@ -811,7 +811,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_grn_tartan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_33_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_33_co.paa"
 		};
 	};
 	
@@ -821,7 +821,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_grn_buffalo";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_34_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_34_co.paa"
 		};
 	};
 	
@@ -831,7 +831,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_sawtooth";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_35_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_35_co.paa"
 		};
 	};
 	
@@ -841,7 +841,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_grn_sawtooth";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_36_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_36_co.paa"
 		};
 	};
 	
@@ -851,7 +851,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_red_check";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_37_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_37_co.paa"
 		};
 	};
 	
@@ -861,7 +861,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_shorts_grn_check";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_3_38_co.paa"
+			"\tg\dad\Data\tg_u_dadpat_3_38_co.paa"
 		};
 	};
 	
@@ -875,7 +875,7 @@ class CfgVehicles
         _generalMacro = "B_soldier_F"; 
         scope = 1; 
         displayName = "DADPAT (Tactical) (Hawaiian, Blue)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\characters_f_epb\guerrilla\ig_guerrilla5_1.p3d";
 		modelSides[] = {3,2,1,0};
         uniformClass = "tg_u_dadpat_tactical_blue_hi"; 	// class of uniform
@@ -887,7 +887,7 @@ class CfgVehicles
 		}; 
         hiddenSelectionsTextures[] = 
 		{ // set texture .paa
-			"\tg_dad\Data\tg_u_dadpat_2_01_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_01_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};	
         /*
@@ -904,7 +904,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_02_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_02_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -915,8 +915,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_grn_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_03_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_03_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -926,7 +926,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_prp_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_04_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_04_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -937,8 +937,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_tacky";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_05_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_05_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -948,8 +948,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_floral";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_06_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_06_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -959,7 +959,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_Tactical_orng_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_07_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_07_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -970,8 +970,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_blue_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_08_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_08_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -981,7 +981,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_09_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_09_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -992,7 +992,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_grn_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_10_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_10_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1003,7 +1003,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_herringbone";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_11_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_11_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1014,7 +1014,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_flamingo_dark";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_12_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_12_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1025,7 +1025,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_orng_grn_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_13_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_13_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1036,7 +1036,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_grn_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_14_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_14_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1047,8 +1047,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_sunset";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_15_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_15_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1058,8 +1058,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_pineapple";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_16_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_16_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1069,8 +1069,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_blu_yllw_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_17_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_17_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1081,7 +1081,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_tiki";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_18_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_18_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1093,7 +1093,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_orng_grn_hi";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_19_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_19_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1104,8 +1104,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_flamingo_light";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_20_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_20_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1115,7 +1115,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_dark_palm";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_21_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_21_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1126,7 +1126,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_gold_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_22_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_22_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1137,8 +1137,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_pink_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_23_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_23_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1148,7 +1148,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_bw_plaid_1";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_24_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_24_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1159,8 +1159,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_bw_plaid_2";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_25_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_25_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1170,7 +1170,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_prp_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_26_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_26_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1181,8 +1181,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_yllw_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_27_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_27_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1192,7 +1192,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_cream_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_28_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_28_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1203,7 +1203,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_scotland_red_grn_plaid";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_29_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_29_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1214,7 +1214,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_tattersall";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_30_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_30_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1225,7 +1225,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_tartan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_31_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_31_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1236,7 +1236,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_buffalo";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_32_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_32_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1247,7 +1247,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_grn_tartan";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_33_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_33_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1258,8 +1258,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_grn_buffalo";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_34_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_34_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1269,7 +1269,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_sawtooth";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_35_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_35_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1280,8 +1280,8 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_grn_sawtooth";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_36_co.paa",
-			"\tg_dad\Data\tg_b_u_tan_co.paa" // TAN
+			"\tg\dad\Data\tg_u_dadpat_2_36_co.paa",
+			"\tg\dad\Data\tg_b_u_tan_co.paa" // TAN
 		};
 	};
 	
@@ -1291,7 +1291,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_red_check";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_37_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_37_co.paa",
 			"\A3\characters_f\BLUFOR\Data\clothing1_co.paa" // MTP
 		};
 	};
@@ -1302,7 +1302,7 @@ class CfgVehicles
 		uniformClass = "tg_u_dadpat_tactical_grn_check";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg_dad\Data\tg_u_dadpat_2_38_co.paa",
+			"\tg\dad\Data\tg_u_dadpat_2_38_co.paa",
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa" // SAGE
 		};
 	};
@@ -1326,7 +1326,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Hawaiian, Blue)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1340,7 +1340,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (White)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1354,7 +1354,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Brown)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1368,7 +1368,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Hawaiian, Red)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1382,7 +1382,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Palm, Green)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1396,7 +1396,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Palm, Purple)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1410,7 +1410,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Floral, Plaid)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1424,7 +1424,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Floral)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1438,7 +1438,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Orange)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1452,7 +1452,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Blue)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1466,7 +1466,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Red)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1480,7 +1480,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1494,7 +1494,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Herringbone)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1508,7 +1508,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Flamingo, Dark)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1522,7 +1522,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Palm, Orange/Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1536,7 +1536,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Hawaiian, Red/Green)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1550,7 +1550,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Sunset)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1564,7 +1564,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Pineapple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1578,7 +1578,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Hawaiian, Blue/Yellow)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1593,7 +1593,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Tiki)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1608,7 +1608,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Hawaiian, Orange/Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1622,7 +1622,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Flamingo, Light)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1636,7 +1636,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Palm, Dark)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1650,7 +1650,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Gold)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1664,7 +1664,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Pink)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1678,7 +1678,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, B&W)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1692,7 +1692,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, B&W alt)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1706,7 +1706,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Purple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1720,7 +1720,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Yellow)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1734,7 +1734,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Cream)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1748,7 +1748,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Red/Green Scottish)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1763,7 +1763,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Tattersall)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1777,7 +1777,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Red Tartan)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1791,7 +1791,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Red Buffalo)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1805,7 +1805,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Green Tartan)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1819,7 +1819,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Green Buffalo)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1833,7 +1833,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Red Sawtooth)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1847,7 +1847,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Green Sawtooth)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1861,7 +1861,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Red Check)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1875,7 +1875,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Pants) (Plaid, Green Check)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1893,7 +1893,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Hawaiian, Blue)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1907,7 +1907,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Hawaiian, Red)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1921,7 +1921,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Palm, Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1935,7 +1935,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Palm, Purple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1949,7 +1949,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Floral, Plaid)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1963,7 +1963,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Floral)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1977,7 +1977,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Orange)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -1991,7 +1991,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Blue)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2005,7 +2005,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Red)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2019,7 +2019,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2033,7 +2033,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Herringbone)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2047,7 +2047,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Flamingo, Dark)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2061,7 +2061,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Palm, Orange/Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2075,7 +2075,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Hawaiian, Red/Green)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2089,7 +2089,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Sunset)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2103,7 +2103,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Pineapple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2117,7 +2117,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Hawaiian, Blue/Yellow)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2132,7 +2132,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Tiki)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2147,7 +2147,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Hawaiian, Orange/Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2161,7 +2161,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Flamingo, Light)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2175,7 +2175,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Palm, Dark)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2189,7 +2189,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Gold)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2203,7 +2203,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Pink)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2217,7 +2217,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, B&W)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2231,7 +2231,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, B&W alt)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2245,7 +2245,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Purple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2259,7 +2259,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Yellow)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2273,7 +2273,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Cream)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2287,7 +2287,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Red/Green Scottish)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2302,7 +2302,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Tattersall)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2316,7 +2316,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Red Tartan)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2330,7 +2330,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Red Buffalo)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2344,7 +2344,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Green Tartan)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2358,7 +2358,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Green Buffalo)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2372,7 +2372,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Red Sawtooth)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2386,7 +2386,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Green Sawtooth)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2400,7 +2400,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Red Check)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2414,7 +2414,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Shorts) (Plaid, Green Check)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2432,7 +2432,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Hawaiian, Blue)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2446,7 +2446,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Hawaiian, Red)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2460,7 +2460,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Palm, Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2474,7 +2474,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Palm, Purple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2488,7 +2488,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Floral, Plaid)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2502,7 +2502,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Floral)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2516,7 +2516,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Orange)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2530,7 +2530,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Blue)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2544,7 +2544,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Red)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2558,7 +2558,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2572,7 +2572,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Herringbone)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2586,7 +2586,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Flamingo, Dark)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2600,7 +2600,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Palm, Orange/Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2614,7 +2614,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Hawaiian, Red/Green)";
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2628,7 +2628,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Sunset)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2642,7 +2642,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Pineapple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2656,7 +2656,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Hawaiian, Blue/Yellow)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2671,7 +2671,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Tiki)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2686,7 +2686,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Hawaiian, Orange/Green)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2700,7 +2700,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Flamingo, Light)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2714,7 +2714,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Palm, Dark)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2728,7 +2728,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Gold)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2742,7 +2742,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Pink)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2756,7 +2756,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, B&W)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2770,7 +2770,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, B&W alt)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2784,7 +2784,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Purple)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2798,7 +2798,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Yellow)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2812,7 +2812,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Cream)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2826,7 +2826,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Red/Green Scottish)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2841,7 +2841,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Tattersall)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2855,7 +2855,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Red Tartan)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2869,7 +2869,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Red Buffalo)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2883,7 +2883,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Green Tartan)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2897,7 +2897,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Green Buffalo)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2911,7 +2911,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Red Sawtooth)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2925,7 +2925,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Green Sawtooth)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2939,7 +2939,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Red Check)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
@@ -2953,7 +2953,7 @@ class cfgWeapons
     { 
         scope = 2; 
         displayName = "DADPAT (Tactical) (Plaid, Green Check)"; 
-		picture = "\tg_dad\Data\logo_small.paa";
+		picture = "\tg\dad\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; 
         class ItemInfo : UniformItem { 
 			uniformModel="-";
