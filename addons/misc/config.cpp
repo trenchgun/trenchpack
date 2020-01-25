@@ -618,7 +618,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Vest (Black)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_black_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -632,7 +632,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Vest (Coyote)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -646,7 +646,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Vest (Khaki)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -660,7 +660,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Vest (Blue)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -674,7 +674,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Vest (Red)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_red_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_red_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -688,7 +688,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Lite (Black)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_black_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_light_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -702,7 +702,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Lite (Coyote)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_light_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -716,7 +716,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Lite (Khaki)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_light_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -730,7 +730,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Lite (Blue)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_light_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -744,7 +744,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier Lite (Red)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_red_light_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_red_light_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -758,7 +758,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier GL Rig (Black)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -772,7 +772,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier GL Rig (Coyote)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_coyote_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_coyote_heavy_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -786,7 +786,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier GL Rig (Khaki)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_khaki_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_khaki_heavy_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -800,7 +800,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier GL Rig (Blue)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_blue_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_blue_heavy_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
@@ -814,7 +814,7 @@ class cfgWeapons
 		scope = 2;
 
 		displayName = "Modular Carrier GL Rig (Red)";
-		picture="\tg_misc\Data\UI\icon_m_v_modular_red_heavy_ca.paa";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_red_heavy_ca.paa";
 
 		hiddenSelectionsTextures[]=
 		{
