@@ -1,2 +1,0 @@
-TODO:
-     - fix texture for pilot headset (glasses)
