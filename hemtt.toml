@@ -11,6 +11,10 @@ skip = [
 	"oc"
 ]
 
+releasebuild = [
+    "@zip trenchpack_{{version}}"
+]
+
 exclude = [
 	"*.psd",
 	"*.png",
