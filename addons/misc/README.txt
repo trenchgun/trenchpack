@@ -1,1 +1,1 @@
-tg_misc contains the DADPAT texture pack.
+tg_misc contains miscellaneous retextures.

@@ -504,7 +504,6 @@ class cfgWeapons
 	* Carrier Vest (LDF)
 	*******************************/
 	
-	
 	class tg_v_modular_base: Vest_Camo_Base
 	{
 		DLC = "Enoch";
@@ -626,6 +625,20 @@ class cfgWeapons
 		};
 	};
 	
+	class tg_v_modular_grey: tg_v_modular_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier Vest (Grey)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_grey_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_grey_co.paa"
+		};
+	};
+	
 	class tg_v_modular_coyote: tg_v_modular_base
 	{
 		author = "Trenchgun";
@@ -696,6 +709,20 @@ class cfgWeapons
 		};
 	};
 	
+	class tg_v_modular_grey_light: tg_v_modular_light_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier Lite (Grey)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_grey_light_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_grey_co.paa"
+		};
+	};
+	
 	class tg_v_modular_coyote_light: tg_v_modular_light_base
 	{
 		author = "Trenchgun";
@@ -763,6 +790,20 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_black_co.paa"
+		};
+	};
+	
+	class tg_v_modular_grey_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Grey)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_grey_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_grey_co.paa"
 		};
 	};
 	
@@ -1411,6 +1452,59 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_black_co.paa"
+		};
+	};
+	
+	// grey
+	class tg_h_fast_grey: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Grey)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_grey_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_grey_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_grey: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Headset) (Grey)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_grey_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_grey_co.paa"
+		};
+	};
+	
+	class tg_h_fast_ears_grey: fast_ears_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Ears) (Grey)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_grey_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_grey_co.paa"
+		};
+	};
+	
+	class tg_h_fast_chops_grey: fast_chops_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Chops) (Grey)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_grey_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_grey_co.paa"
 		};
 	};
 	
