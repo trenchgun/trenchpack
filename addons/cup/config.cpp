@@ -978,7 +978,7 @@ class cfgWeapons
 	class tg_cup_fatigues_blk: tg_cup_fatigues
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -993,7 +993,7 @@ class cfgWeapons
 	class tg_cup_fatigues_rolled_blk: tg_cup_fatigues_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1008,7 +1008,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_blk: tg_cup_fatigues_gloves
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1023,7 +1023,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_rolled_blk: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1100,7 +1100,7 @@ class cfgWeapons
 	class tg_cup_fatigues_grey: tg_cup_fatigues
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Grey";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1115,7 +1115,7 @@ class cfgWeapons
 	class tg_cup_fatigues_rolled_grey: tg_cup_fatigues_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Grey (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1130,7 +1130,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_grey: tg_cup_fatigues_gloves
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Grey (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1145,7 +1145,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_rolled_grey: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Grey (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1222,7 +1222,7 @@ class cfgWeapons
 	class tg_cup_fatigues_khk: tg_cup_fatigues
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Khaki";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1237,7 +1237,7 @@ class cfgWeapons
 	class tg_cup_fatigues_rolled_khk: tg_cup_fatigues_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Khaki (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1252,7 +1252,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_khk: tg_cup_fatigues_gloves
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Khaki (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1267,7 +1267,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_rolled_khk: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Khaki (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1344,7 +1344,7 @@ class cfgWeapons
 	class tg_cup_fatigues_od: tg_cup_fatigues
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Olive";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1359,7 +1359,7 @@ class cfgWeapons
 	class tg_cup_fatigues_rolled_od: tg_cup_fatigues_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Olive (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1374,7 +1374,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_od: tg_cup_fatigues_gloves
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Olive (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1389,7 +1389,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_rolled_od: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Olive (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1466,7 +1466,7 @@ class cfgWeapons
 	class tg_cup_fatigues_tan: tg_cup_fatigues
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Tan";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1481,7 +1481,7 @@ class cfgWeapons
 	class tg_cup_fatigues_rolled_tan: tg_cup_fatigues_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Tan (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1496,7 +1496,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_tan: tg_cup_fatigues_gloves
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Tan (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1511,7 +1511,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_rolled_tan: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Tan (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1583,12 +1583,12 @@ class cfgWeapons
 		};
 	};
 
-	/* Fatigues, Black */
+	/* Fatigues, Black/Grey */
 	
 	class tg_cup_fatigues_blk_grey: tg_cup_fatigues
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black/Grey";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1603,7 +1603,7 @@ class cfgWeapons
 	class tg_cup_fatigues_rolled_blk_grey: tg_cup_fatigues_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black/Grey (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1618,7 +1618,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_blk_grey: tg_cup_fatigues_gloves
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black/Grey (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
@@ -1633,7 +1633,7 @@ class cfgWeapons
 	class tg_cup_fatigues_gloves_rolled_blk_grey: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
-		scopeArsenal=2;
+		scopeArsenal=0;
 		displayName = "Fatigues, Black/Grey (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
