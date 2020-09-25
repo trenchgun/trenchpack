@@ -1720,6 +1720,141 @@ class cfgWeapons
 		};
 	};
 	
+	// ATACS AU
+	class tg_h_fast_atacs_au: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (ATACS AU)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_atacs_au: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Headset) (ATACS AU)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
+		};
+	};
+	
+	class tg_h_fast_ears_olive_atacs_au: fast_ears_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Ears) (ATACS AU)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
+		};
+	};
+	
+	class tg_h_fast_chops_olive_atacs_au: fast_chops_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Chops) (ATACS AU)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
+		};
+	};
+	
+	// ATACS AU 2
+	class tg_h_fast_atacs_au_2: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (ATACS AU) (alt)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_au_2_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_atacs_au_2: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Headset) (ATACS AU) (alt)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_au_2_co.paa"
+		};
+	};
+	
+	// ATACS FG
+	class tg_h_fast_atacs_fg: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (ATACS FG)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_fg_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_atacs_fg: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Headset) (ATACS FG)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_fg_co.paa"
+		};
+	};
+	
+	// ATACS FG 2
+	class tg_h_fast_atacs_fg_2: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (ATACS FG) (alt)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_fg_2_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_atacs_fg_2: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "Advanced Modular Helmet (Headset) (ATACS FG) (alt)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_atacs_fg_2_co.paa"
+		};
+	};
+
+	
 };
 class cfgMods
 {
