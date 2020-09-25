@@ -1355,7 +1355,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Olive)";
+		displayName = "Adv. Mod. Helmet (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1368,7 +1368,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Olive)";
+		displayName = "Adv. Mod. Helmet (Headset) (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1381,7 +1381,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Olive)";
+		displayName = "Adv. Mod. Helmet (Ears) (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1394,7 +1394,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Olive)";
+		displayName = "Adv. Mod. Helmet (Chops) (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1408,7 +1408,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Black)";
+		displayName = "Adv. Mod. Helmet (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1421,7 +1421,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Black)";
+		displayName = "Adv. Mod. Helmet (Headset) (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1434,7 +1434,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Black)";
+		displayName = "Adv. Mod. Helmet (Ears) (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1447,7 +1447,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Black)";
+		displayName = "Adv. Mod. Helmet (Chops) (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1461,7 +1461,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Grey)";
+		displayName = "Adv. Mod. Helmet (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1474,7 +1474,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Grey)";
+		displayName = "Adv. Mod. Helmet (Headset) (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1487,7 +1487,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Grey)";
+		displayName = "Adv. Mod. Helmet (Ears) (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1500,7 +1500,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Grey)";
+		displayName = "Adv. Mod. Helmet (Chops) (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1514,7 +1514,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Coyote)";
+		displayName = "Adv. Mod. Helmet (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1527,7 +1527,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Coyote)";
+		displayName = "Adv. Mod. Helmet (Headset) (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1540,7 +1540,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Coyote)";
+		displayName = "Adv. Mod. Helmet (Ears) (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1553,7 +1553,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Coyote)";
+		displayName = "Adv. Mod. Helmet (Chops) (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1567,7 +1567,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Khaki)";
+		displayName = "Adv. Mod. Helmet (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1580,7 +1580,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Khaki)";
+		displayName = "Adv. Mod. Helmet (Headset) (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1593,7 +1593,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Khaki)";
+		displayName = "Adv. Mod. Helmet (Ears) (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1606,7 +1606,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Khaki)";
+		displayName = "Adv. Mod. Helmet (Chops) (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1620,7 +1620,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Blue)";
+		displayName = "Adv. Mod. Helmet (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1633,7 +1633,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Blue)";
+		displayName = "Adv. Mod. Helmet (Headset) (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1646,7 +1646,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Blue)";
+		displayName = "Adv. Mod. Helmet (Ears) (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1659,7 +1659,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Blue)";
+		displayName = "Adv. Mod. Helmet (Chops) (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1673,7 +1673,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Red)";
+		displayName = "Adv. Mod. Helmet (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1686,7 +1686,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (Red)";
+		displayName = "Adv. Mod. Helmet (Headset) (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1699,7 +1699,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (Red)";
+		displayName = "Adv. Mod. Helmet (Ears) (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1712,7 +1712,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (Red)";
+		displayName = "Adv. Mod. Helmet (Chops) (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1726,7 +1726,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (ATACS AU)";
+		displayName = "Adv. Mod. Helmet (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1739,7 +1739,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (ATACS AU)";
+		displayName = "Adv. Mod. Helmet (Headset) (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1752,7 +1752,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Ears) (ATACS AU)";
+		displayName = "Adv. Mod. Helmet (Ears) (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1765,7 +1765,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Chops) (ATACS AU)";
+		displayName = "Adv. Mod. Helmet (Chops) (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1779,7 +1779,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (ATACS AU) (alt)";
+		displayName = "Adv. Mod. Helmet (ATACS AU) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1792,7 +1792,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (ATACS AU) (alt)";
+		displayName = "Adv. Mod. Helmet (Headset) (ATACS AU) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1806,7 +1806,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (ATACS FG)";
+		displayName = "Adv. Mod. Helmet (ATACS FG)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1819,7 +1819,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (ATACS FG)";
+		displayName = "Adv. Mod. Helmet (Headset) (ATACS FG)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1833,7 +1833,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (ATACS FG) (alt)";
+		displayName = "Adv. Mod. Helmet (ATACS FG) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1846,7 +1846,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Advanced Modular Helmet (Headset) (ATACS FG) (alt)";
+		displayName = "Adv. Mod. Helmet (Headset) (ATACS FG) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
