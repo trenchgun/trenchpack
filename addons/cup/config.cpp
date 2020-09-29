@@ -358,6 +358,32 @@ class CfgVehicles
 			"\tg\cup\Data\tg_cup_oakley_grey_co.paa"
 		};
 	};
+	
+	/* Fatigues, Black (Coyote kneepads) */
+	
+	class tg_cup_soldier_fatigues_kneepads_gloves_blk_coyote: tg_cup_soldier_fatigues_kneepads_gloves
+	{
+		scope=1;
+		displayName="Fatigues, Black (Kneepads, Coyote) (Gloves)";
+		uniformClass="tg_cup_fatigues_kneepads_gloves_blk_coyote";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_fatigues_black_kneepads_coyote_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_grn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk_coyote: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	{
+		scope=1;
+		displayName="Fatigues, Black (Kneepads, Coyote) (Gloves) (Rolled Sleeves)";
+		uniformClass="tg_cup_fatigues_kneepads_gloves_rolled_blk";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_fatigues_black_kneepads_coyote_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_grn_co.paa"
+		};
+	};
 
 	/* Fatigues, Grey */
 
@@ -458,7 +484,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_khk: tg_cup_soldier_fatigues
 	{
 		scope=1;
-		displayName="Fatigues, Black";
+		displayName="Fatigues, Brown";
 		uniformClass="tg_cup_fatigues_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -469,7 +495,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_rolled_khk: tg_cup_soldier_fatigues_rolled
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Rolled Sleeves)";
+		displayName="Fatigues, Brown (Rolled Sleeves)";
 		uniformClass="tg_cup_fatigues_rolled_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -480,7 +506,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_gloves_khk: tg_cup_soldier_fatigues_gloves
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Gloves)";
+		displayName="Fatigues, Brown (Gloves)";
 		uniformClass="tg_cup_fatigues_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -492,7 +518,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_gloves_rolled_khk: tg_cup_soldier_fatigues_gloves_rolled
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Gloves) (Rolled Sleeves)";
+		displayName="Fatigues, Brown (Gloves) (Rolled Sleeves)";
 		uniformClass="tg_cup_fatigues_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -504,7 +530,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_kneepads_khk: tg_cup_soldier_fatigues_kneepads
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Kneepads)";
+		displayName="Fatigues, Brown (Kneepads)";
 		uniformClass="tg_cup_fatigues_kneepads_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -515,7 +541,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_kneepads_rolled_khk: tg_cup_soldier_fatigues_kneepads_rolled
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Kneepads) (Rolled Sleeves)";
+		displayName="Fatigues, Brown (Kneepads) (Rolled Sleeves)";
 		uniformClass="tg_cup_fatigues_kneepads_rolled_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -526,7 +552,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_kneepads_gloves_khk: tg_cup_soldier_fatigues_kneepads_gloves
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Kneepads) (Gloves)";
+		displayName="Fatigues, Brown (Kneepads) (Gloves)";
 		uniformClass="tg_cup_fatigues_kneepads_gloves_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -538,7 +564,7 @@ class CfgVehicles
 	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_khk: tg_cup_soldier_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
-		displayName="Fatigues, Khaki (Kneepads) (Gloves) (Rolled Sleeves)";
+		displayName="Fatigues, Brown (Kneepads) (Gloves) (Rolled Sleeves)";
 		uniformClass="tg_cup_fatigues_kneepads_gloves_rolled_khk";
 		hiddenSelectionsTextures[]=
 		{
@@ -830,6 +856,194 @@ class CfgVehicles
 	};
 
 
+	/* PMC, Plaid Green/Jeans */
+/*
+	class tg_cup_soldier_pmc_green_jeans: tg_cup_soldier_fatigues
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans";
+		uniformClass="tg_cup_pmc_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_green_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_rolled_green_jeans: tg_cup_soldier_fatigues_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_rolled_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_green_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_gloves_green_jeans: tg_cup_soldier_fatigues_gloves
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Gloves)";
+		uniformClass="tg_cup_pmc_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_green_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_gloves_rolled_green_jeans: tg_cup_soldier_fatigues_gloves_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Gloves) (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_green_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_green_jeans: tg_cup_soldier_fatigues_kneepads
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Kneepads)";
+		uniformClass="tg_cup_pmc_kneepads_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_fatigues_green_jeans_kneepads_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_rolled_green_jeans: tg_cup_soldier_fatigues_kneepads_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Kneepads) (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_kneepads_rolled_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_green_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_gloves_green_jeans: tg_cup_soldier_fatigues_kneepads_gloves
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Kneepads) (Gloves)";
+		uniformClass="tg_cup_pmc_kneepads_gloves_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_green_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_gloves_rolled_green_jeans: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Plaid/Jeans (Kneepads) (Gloves) (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_kneepads_gloves_rolled_green_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_green_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+*/
+	/* PMC, Salmon/Jeans */
+
+	class tg_cup_soldier_pmc_salmon_jeans: tg_cup_soldier_fatigues
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans";
+		uniformClass="tg_cup_pmc_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_salmon_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_rolled_salmon_jeans: tg_cup_soldier_fatigues_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_rolled_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_salmon_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_gloves_salmon_jeans: tg_cup_soldier_fatigues_gloves
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Gloves)";
+		uniformClass="tg_cup_pmc_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_salmon_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_gloves_rolled_salmon_jeans: tg_cup_soldier_fatigues_gloves_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Gloves) (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_salmon_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_salmon_jeans: tg_cup_soldier_fatigues_kneepads
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Kneepads)";
+		uniformClass="tg_cup_pmc_kneepads_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_salmon_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_rolled_salmon_jeans: tg_cup_soldier_fatigues_kneepads_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Kneepads) (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_kneepads_rolled_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_salmon_jeans_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_gloves_salmon_jeans: tg_cup_soldier_fatigues_kneepads_gloves
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Kneepads) (Gloves)";
+		uniformClass="tg_cup_pmc_kneepads_gloves_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_salmon_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+	
+	class tg_cup_soldier_pmc_kneepads_gloves_rolled_salmon_jeans: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	{
+		scope=1;
+		displayName="PMC Fatigues, Salmon/Jeans (Kneepads) (Gloves) (Rolled Sleeves)";
+		uniformClass="tg_cup_pmc_kneepads_gloves_rolled_salmon_jeans";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\cup\Data\tg_cup_pmc_kneepads_salmon_jeans_co.paa",
+			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
+		};
+	};
+
 };
 class cfgWeapons
 {
@@ -1095,6 +1309,38 @@ class cfgWeapons
 		};
 	};
 	
+	/* Fatugues, Black (Coyote Kneepads) */
+	
+	class tg_cup_fatigues_kneepads_gloves_blk_coyote: tg_cup_fatigues_kneepads_gloves
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "Fatigues, Black (Kneepads, Coyote) (Gloves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_blk_coyote;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_fatigues_kneepads_gloves_rolled_blk_coyote: tg_cup_fatigues_kneepads_gloves_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "Fatigues, Black (Kneepads, Coyote) (Gloves) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk_coyote;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
 	/* Fatigues, Grey */
 	
 	class tg_cup_fatigues_grey: tg_cup_fatigues
@@ -1217,13 +1463,13 @@ class cfgWeapons
 		};
 	};
 
-	/* Fatigues, Khaki */
+	/* Fatigues, Brown */
 	
 	class tg_cup_fatigues_khk: tg_cup_fatigues
 	{
 		scope=1;
 		scopeArsenal=0;
-		displayName = "Fatigues, Khaki";
+		displayName = "Fatigues, Brown";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1238,7 +1484,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=0;
-		displayName = "Fatigues, Khaki (Rolled Sleeves)";
+		displayName = "Fatigues, Brown (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1253,7 +1499,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=0;
-		displayName = "Fatigues, Khaki (Gloves)";
+		displayName = "Fatigues, Brown (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1268,7 +1514,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=0;
-		displayName = "Fatigues, Khaki (Gloves) (Rolled Sleeves)";
+		displayName = "Fatigues, Brown (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1283,7 +1529,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=2;
-		displayName = "Fatigues, Khaki (Kneepads)";
+		displayName = "Fatigues, Brown (Kneepads)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1298,7 +1544,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=2;
-		displayName = "Fatigues, Khaki (Kneepads) (Rolled Sleeves)";
+		displayName = "Fatigues, Brown (Kneepads) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1313,7 +1559,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=2;
-		displayName = "Fatigues, Khaki (Kneepads) (Gloves)";
+		displayName = "Fatigues, Brown (Kneepads) (Gloves)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1328,7 +1574,7 @@ class cfgWeapons
 	{
 		scope=1;
 		scopeArsenal=2;
-		displayName = "Fatigues, Khaki (Kneepads) (Gloves) (Rolled Sleeves)";
+		displayName = "Fatigues, Brown (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
 		class ItemInfo: UniformItem
 		{
@@ -1705,6 +1951,251 @@ class cfgWeapons
 		};
 	};
 	
+	/* PMC Fatigues, Plaid/Jeans */
+	/*
+	class tg_cup_pmc_green_jeans: tg_cup_fatigues
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_rolled_green_jeans: tg_cup_fatigues_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_rolled_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_gloves_green_jeans: tg_cup_fatigues_gloves
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans (Gloves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_gloves_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_gloves_rolled_green_jeans: tg_cup_fatigues_gloves_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans (Gloves) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_gloves_rolled_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_green_jeans: tg_cup_fatigues_kneepads
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans (Kneepads)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_rolled_green_jeans: tg_cup_fatigues_kneepads_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans (Kneepads) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_rolled_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_gloves_green_jeans: tg_cup_fatigues_kneepads_gloves
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Plaid/Jeans (Kneepads) (Gloves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_gloves_rolled_green_jeans: tg_cup_fatigues_kneepads_gloves_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "Fatigues, Plaid/Jeans (Kneepads) (Gloves) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_rolled_green_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	*/
+	
+	/* PMC Fatigues, Salmon/Jeans */
+	
+	class tg_cup_pmc_salmon_jeans: tg_cup_fatigues
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_rolled_salmon_jeans: tg_cup_fatigues_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_rolled_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_gloves_salmon_jeans: tg_cup_fatigues_gloves
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon (Gloves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_gloves_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_gloves_rolled_salmon_jeans: tg_cup_fatigues_gloves_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon (Gloves) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_gloves_rolled_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_salmon_jeans: tg_cup_fatigues_kneepads
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon (Kneepads)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_rolled_salmon_jeans: tg_cup_fatigues_kneepads_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon (Kneepads) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_rolled_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_gloves_salmon_jeans: tg_cup_fatigues_kneepads_gloves
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "PMC Fatigues, Salmon (Kneepads) (Gloves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
+	
+	class tg_cup_pmc_kneepads_gloves_rolled_salmon_jeans: tg_cup_fatigues_kneepads_gloves_rolled
+	{
+		scope=1;
+		scopeArsenal=2;
+		displayName = "Fatigues, Salmon (Kneepads) (Gloves) (Rolled Sleeves)";
+		picture = "";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "";
+			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_rolled_salmon_jeans;
+			containerClass = Supply60;
+			mass = 20;
+		};
+	};
 	
 	/************/
 	/*	Vests	*/
