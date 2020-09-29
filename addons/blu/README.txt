@@ -1,1 +1,1 @@
-tg_blu contains the DADPAT texture pack.
+tg_blu contains BLUFOR retextures.
