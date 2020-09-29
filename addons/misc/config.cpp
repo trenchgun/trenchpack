@@ -793,6 +793,48 @@ class cfgWeapons
 		};
 	};
 	
+	class tg_v_modular_black_blue_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Black/Blue)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_black_blue_co.paa"
+		};
+	};
+	
+	class tg_v_modular_black_green_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Black/Green)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_black_green_co.paa"
+		};
+	};
+	
+	class tg_v_modular_black_yellow_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Black/Yellow)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_black_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_black_yellow_co.paa"
+		};
+	};
+	
 	class tg_v_modular_grey_heavy: tg_v_modular_heavy_base
 	{
 		author = "Trenchgun";
@@ -804,6 +846,48 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\misc\Data\tg_m_v_modular_grey_co.paa"
+		};
+	};
+	
+	class tg_v_modular_grey_red_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Grey/Red)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_grey_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_grey_red_co.paa"
+		};
+	};
+	
+	class tg_v_modular_grey_orange_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Grey/Orange)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_grey_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_grey_orange_co.paa"
+		};
+	};
+	
+	class tg_v_modular_grey_purple_heavy: tg_v_modular_heavy_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+
+		displayName = "Modular Carrier GL Rig (Grey/Purple)";
+		picture="\tg\misc\Data\UI\icon_m_v_modular_grey_heavy_ca.paa";
+
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\misc\Data\tg_m_v_modular_grey_purple_co.paa"
 		};
 	};
 	
@@ -1068,6 +1152,7 @@ class cfgWeapons
 			"\tg\misc\Data\tg_m_v_carrier_shoulder_black_co.paa"
 		};
 	};
+	
 	
 	// coyote
 	class tg_v_carrier_lite_coyote: tg_v_carrier_lite_base
@@ -1355,7 +1440,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Olive)";
+		displayName = "AMH (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1368,7 +1453,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Olive)";
+		displayName = "AMH (Headset) (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1381,7 +1466,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Olive)";
+		displayName = "AMH (Ears) (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1394,7 +1479,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Olive)";
+		displayName = "AMH (Chops) (Olive)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1408,7 +1493,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Black)";
+		displayName = "AMH (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1421,7 +1506,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Black)";
+		displayName = "AMH (Headset) (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1434,7 +1519,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Black)";
+		displayName = "AMH (Ears) (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1447,7 +1532,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Black)";
+		displayName = "AMH (Chops) (Black)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_black_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1461,7 +1546,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Grey)";
+		displayName = "AMH (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1474,7 +1559,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Grey)";
+		displayName = "AMH (Headset) (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1487,7 +1572,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Grey)";
+		displayName = "AMH (Ears) (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1500,7 +1585,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Grey)";
+		displayName = "AMH (Chops) (Grey)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_grey_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1514,7 +1599,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Coyote)";
+		displayName = "AMH (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1527,7 +1612,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Coyote)";
+		displayName = "AMH (Headset) (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1540,7 +1625,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Coyote)";
+		displayName = "AMH (Ears) (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1553,7 +1638,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Coyote)";
+		displayName = "AMH (Chops) (Coyote)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_coyote_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1567,7 +1652,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Khaki)";
+		displayName = "AMH (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1580,7 +1665,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Khaki)";
+		displayName = "AMH (Headset) (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1593,7 +1678,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Khaki)";
+		displayName = "AMH (Ears) (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1606,7 +1691,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Khaki)";
+		displayName = "AMH (Chops) (Khaki)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1620,7 +1705,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Blue)";
+		displayName = "AMH (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1633,7 +1718,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Blue)";
+		displayName = "AMH (Headset) (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1646,7 +1731,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Blue)";
+		displayName = "AMH (Ears) (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1659,7 +1744,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Blue)";
+		displayName = "AMH (Chops) (Blue)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_blue_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1673,7 +1758,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Red)";
+		displayName = "AMH (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1686,7 +1771,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (Red)";
+		displayName = "AMH (Headset) (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1699,7 +1784,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (Red)";
+		displayName = "AMH (Ears) (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1712,7 +1797,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (Red)";
+		displayName = "AMH (Chops) (Red)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_red_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1726,7 +1811,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (ATACS AU)";
+		displayName = "AMH (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1739,7 +1824,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (ATACS AU)";
+		displayName = "AMH (Headset) (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1752,7 +1837,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Ears) (ATACS AU)";
+		displayName = "AMH (Ears) (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1765,7 +1850,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Chops) (ATACS AU)";
+		displayName = "AMH (Chops) (ATACS AU)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1779,7 +1864,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (ATACS AU) (alt)";
+		displayName = "AMH (ATACS AU) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1792,7 +1877,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (ATACS AU) (alt)";
+		displayName = "AMH (Headset) (ATACS AU) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1806,7 +1891,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (ATACS FG)";
+		displayName = "AMH (ATACS FG)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1819,7 +1904,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (ATACS FG)";
+		displayName = "AMH (Headset) (ATACS FG)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1833,7 +1918,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (ATACS FG) (alt)";
+		displayName = "AMH (ATACS FG) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1846,11 +1931,92 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "Adv. Mod. Helmet (Headset) (ATACS FG) (alt)";
+		displayName = "AMH (Headset) (ATACS FG) (alt)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_atacs_fg_2_co.paa"
+		};
+	};
+	
+	// Multicam (OD)
+	class tg_h_fast_multicam: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Multicam)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_multicam: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Headset) (Mutlicam)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_co.paa"
+		};
+	};
+	
+	// Multicam (black)
+	class tg_h_fast_multicam_2: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Multicam/Black)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_2_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_multicam_2: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Headset) (Mutlicam/Black)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_2_co.paa"
+		};
+	};
+	
+	// Multicam (sand)
+	class tg_h_fast_multicam_3: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Multicam/Sand)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_3_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_multicam_3: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Headset) (Mutlicam/Sand)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_3_co.paa"
 		};
 	};
 
