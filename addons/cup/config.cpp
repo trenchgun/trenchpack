@@ -2524,7 +2524,7 @@ class cfgWeapons
 	/* 6b43 vest Olive */
 	class tg_cup_6b43_olive: tg_cup_6b43_tan
 	{
-		displayName = "6B43 Vest (Olive)"
+		displayName = "6B43 Vest (Olive)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
@@ -2542,7 +2542,7 @@ class cfgWeapons
 	
 	class tg_cup_6b43_olive_shoulder: tg_cup_6b43_tan_shoulder
 	{
-		displayName = "6B43 Vest (Olive) (Shoulders)"
+		displayName = "6B43 Vest (Olive) (Shoulders)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
@@ -2560,7 +2560,7 @@ class cfgWeapons
 	
 	class tg_cup_6b43_olive_pelvis: tg_cup_6b43_tan_pelvis
 	{
-		displayName = "6B43 Vest (Olive) (Pelvis)"
+		displayName = "6B43 Vest (Olive) (Pelvis)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
@@ -2578,7 +2578,7 @@ class cfgWeapons
 	
 	class tg_cup_6b43_olive_shoulder_pelvis: tg_cup_6b43_tan_shoulder_pelvis
 	{
-		displayName = "6B43 Vest (Olive) (Shoulder, Pelvis)"
+		displayName = "6B43 Vest (Olive) (Shoulder, Pelvis)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
@@ -2597,7 +2597,7 @@ class cfgWeapons
 	/* 6b43 vest Black */
 	class tg_cup_6b43_black: tg_cup_6b43_tan
 	{
-		displayName = "6B43 Vest (Black)"
+		displayName = "6B43 Vest (Black)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
@@ -2615,7 +2615,7 @@ class cfgWeapons
 	
 	class tg_cup_6b43_black_shoulder: tg_cup_6b43_tan_shoulder
 	{
-		displayName = "6B43 Vest (Black) (Shoulders)"
+		displayName = "6B43 Vest (Black) (Shoulders)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
@@ -2633,7 +2633,7 @@ class cfgWeapons
 	
 	class tg_cup_6b43_black_pelvis: tg_cup_6b43_tan_pelvis
 	{
-		displayName = "6B43 Vest (Black) (Pelvis)"
+		displayName = "6B43 Vest (Black) (Pelvis)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
@@ -2651,7 +2651,7 @@ class cfgWeapons
 	
 	class tg_cup_6b43_black_shoulder_pelvis: tg_cup_6b43_tan_shoulder_pelvis
 	{
-		displayName = "6B43 Vest (Black) (Shoulder, Pelvis)"
+		displayName = "6B43 Vest (Black) (Shoulder, Pelvis)";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
@@ -2666,8 +2666,6 @@ class cfgWeapons
 			};
 		};
 	};
-	
-	class tg_cup_6b43_olive_shoulder: tg_cup_6b43_tan_shoulder
 	
 	/****************/
 	/*	Headgear	*/
