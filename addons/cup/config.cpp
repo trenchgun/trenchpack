@@ -3,7 +3,24 @@ class CfgPatches
 	class tg_cup_uniforms
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			tg_cup_6b3_pioneer_tan,
+			tg_cup_6b3_pioneer_olive,
+			tg_cup_6b3_pioneer_black,
+			tg_cup_6b3_pioneer_black_olive,
+			tg_cup_6b43_tan,
+			tg_cup_6b43_tan_pelvis,
+			tg_cup_6b43_tan_shoulder,
+			tg_cup_6b43_tan_shoulder_pelvis,
+			tg_cup_6b43_olive,
+			tg_cup_6b43_olive_pelvis,
+			tg_cup_6b43_olive_shoulder,
+			tg_cup_6b43_olive_shoulder_pelvis,
+			tg_cup_6b43_black,
+			tg_cup_6b43_black_pelvis,
+			tg_cup_6b43_black_shoulder,
+			tg_cup_6b43_black_shoulder_pelvis
+		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -2315,7 +2332,9 @@ class cfgWeapons
 	
 	class tg_cup_6b43_tan: Vest_Camo_Base
 	{
-		displayName = "6B43 Vest (Tan)"
+		displayName = "6B43 Vest (Tan)";
+		scope=1;
+		scopeArsenal=2;
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
 		hiddenSelections[] = {"camo", "camo1"};
@@ -2324,8 +2343,7 @@ class cfgWeapons
 			"\tg\cup\Data\tg_cup_6b43_vest_tan_co",
 			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co"
 		};
-
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
 			hiddenSelections[] = {"camo", "camo1"};
@@ -2368,11 +2386,13 @@ class cfgWeapons
 		};
 	};
 	
-	class tg_cup_6b43_tan_shoulders: tg_cup_6b43_tan
+	class tg_cup_6b43_tan_shoulder: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan) (Shoulders)";
+		scope=1;
+		scopeArsenal=2;
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
 			mass = 105;
@@ -2417,11 +2437,13 @@ class cfgWeapons
 		};
 	};
 	
-	class tg_cup_6b43_tan_pelvis: tg_cup_6b43_tan
+	class tg_cup_6b43_tan_pelvis: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan) (Pelvis)";
+		scope=1;
+		scopeArsenal=2;
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
 			mass = 100;
@@ -2466,11 +2488,13 @@ class cfgWeapons
 		};
 	};
 	
-	class tg_cup_6b43_tan_shoulder_pelvis: tg_cup_6b43_tan
+	class tg_cup_6b43_tan_shoulder_pelvis: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan) (Shoulders, Pelvis)";
+		scope=1;
+		scopeArsenal=2;
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
 			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
 			mass = 110;
