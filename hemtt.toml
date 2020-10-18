@@ -4,7 +4,7 @@ author = "Trenchgun"
 
 version = "2.0.0"
 key_name = "{{prefix}}_{{version}}"
-sig_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}"
 modname = "trenchpack"
 
 skip = [
