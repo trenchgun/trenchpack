@@ -1,8 +1,7 @@
 class CfgVehicles {
     class O_Soldier_base_F;
 
-    class tg_opf_gorka_afghan: O_Soldier_base_F
-    {
+    class tg_opf_gorka_afghan: O_Soldier_base_F {
         requiredAddons[] = {"A3_Data_F_Enoch"};
         author = "Trenchgun";
         _generalMacro = "O_soldier_F";
