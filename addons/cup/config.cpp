@@ -1309,7 +1309,7 @@ class cfgWeapons
 		};
 	};
 	
-	/* Fatugues, Black (Coyote Kneepads) */
+	/* Fatigues, Black (Coyote Kneepads) */
 	
 	class tg_cup_fatigues_kneepads_gloves_blk_coyote: tg_cup_fatigues_kneepads_gloves
 	{
@@ -2204,6 +2204,470 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
+	
+	
+	/* 6b3 Vest Tan */
+	class tg_cup_6b3_pioneer_tan: Vest_Camo_Base
+	{
+		displayName = "6B3 (Tan)";
+		scope=1;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_rus_1_flora_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_Rus_Vest_1.p3d";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {
+			"\tg\cup\Data\tg_cup_6b3_equipment_tan_co.paa",
+			"\tg\cup\Data\tg_cup_6b3_vest_tan_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply140";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_Rus_Vest_1.p3d";
+			armor = 20;
+			hiddenSelections[] = {"camo1","camo2"};
+			hiddenSelectionsTextures[] = {
+				"\tg\cup\Data\tg_cup_6b3_equipment_tan_co.paa",
+				"\tg\cup\Data\tg_cup_6b3_vest_tan_co.paa"
+			};
+			passThrough = 0.5;
+			mass = 100;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	};
+	
+	/* 6b3 Vest Olive */
+	class tg_cup_6b3_pioneer_olive: tg_cup_6b3_pioneer_tan
+	{
+		displayName = "6B3 (Olive)";
+		hiddenSelectionsTextures[] = {
+			"\tg\cup\Data\tg_cup_6b3_equipment_olive_co.paa",
+			"\tg\cup\Data\tg_cup_6b3_vest_olive_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {
+				"\tg\cup\Data\tg_cup_6b3_equipment_olive_co.paa",
+				"\tg\cup\Data\tg_cup_6b3_vest_olive_co.paa"
+			};
+		};
+	};
+	
+	/* 6b3 Vest Black */
+	class tg_cup_6b3_pioneer_black: tg_cup_6b3_pioneer_tan
+	{
+		displayName = "6B3 (Black)";
+		hiddenSelectionsTextures[] = {
+			"\tg\cup\Data\tg_cup_6b3_equipment_black_co.paa",
+			"\tg\cup\Data\tg_cup_6b3_vest_black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {
+				"\tg\cup\Data\tg_cup_6b3_equipment_black_co.paa",
+				"\tg\cup\Data\tg_cup_6b3_vest_black_co.paa"
+			};
+		};
+	};
+	
+	/* 6b3 Vest Black, Olive */
+	class tg_cup_6b3_pioneer_black_olive: tg_cup_6b3_pioneer_tan
+	{
+		displayName = "6B3 (Black, Olive)";
+		hiddenSelectionsTextures[] = {
+			"\tg\cup\Data\tg_cup_6b3_equipment_olive_co.paa",
+			"\tg\cup\Data\tg_cup_6b3_vest_black_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {
+				"\tg\cup\Data\tg_cup_6b3_equipment_olive_co.paa",
+				"\tg\cup\Data\tg_cup_6b3_vest_black_co.paa"
+			};
+		};
+	};
+	
+	/* 6b43 vest Tan*/
+	
+	class tg_cup_6b43_tan: Vest_Camo_Base
+	{
+		displayName = "6B43 Vest (Tan)"
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_tan_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co"
+		};
+
+		class ItemInfo: VestItem
+		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_tan_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_tan_co"
+			};
+			armor = 20;
+			passThrough = 0.5;
+			mass = 95;
+			containerClass = "Supply140";
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+			};
+		};
+	};
+	
+	class tg_cup_6b43_tan_shoulders: tg_cup_6b43_tan
+	{
+		displayName = "6B43 Vest (Tan) (Shoulders)";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
+			mass = 105;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
+			};
+		};
+	};
+	
+	class tg_cup_6b43_tan_pelvis: tg_cup_6b43_tan
+	{
+		displayName = "6B43 Vest (Tan) (Pelvis)";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+			mass = 100;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
+			};
+		};
+	};
+	
+	class tg_cup_6b43_tan_shoulder_pelvis: tg_cup_6b43_tan
+	{
+		displayName = "6B43 Vest (Tan) (Shoulders, Pelvis)";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+			mass = 110;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
+			};
+		};
+	};
+	
+	/* 6b43 vest Olive */
+	class tg_cup_6b43_olive: tg_cup_6b43_tan
+	{
+		displayName = "6B43 Vest (Olive)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_olive_shoulder: tg_cup_6b43_tan_shoulder
+	{
+		displayName = "6B43 Vest (Olive) (Shoulders)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_olive_pelvis: tg_cup_6b43_tan_pelvis
+	{
+		displayName = "6B43 Vest (Olive) (Pelvis)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_olive_shoulder_pelvis: tg_cup_6b43_tan_shoulder_pelvis
+	{
+		displayName = "6B43 Vest (Olive) (Shoulder, Pelvis)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			};
+		};
+	};
+	
+	/* 6b43 vest Black */
+	class tg_cup_6b43_black: tg_cup_6b43_tan
+	{
+		displayName = "6B43 Vest (Black)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_black_shoulder: tg_cup_6b43_tan_shoulder
+	{
+		displayName = "6B43 Vest (Black) (Shoulders)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_black_pelvis: tg_cup_6b43_tan_pelvis
+	{
+		displayName = "6B43 Vest (Black) (Pelvis)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_black_shoulder_pelvis: tg_cup_6b43_tan_shoulder_pelvis
+	{
+		displayName = "6B43 Vest (Black) (Shoulder, Pelvis)"
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+		};
+		class ItemInfo: VestItem
+		{
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			};
+		};
+	};
+	
+	class tg_cup_6b43_olive_shoulder: tg_cup_6b43_tan_shoulder
 	
 	/****************/
 	/*	Headgear	*/
