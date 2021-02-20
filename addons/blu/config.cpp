@@ -395,11 +395,11 @@ class CfgVehicles
         author = "Trenchgun"; 
         _generalMacro = "B_soldier_F"; 
         scope = 1; 
-        displayName = "M90 (Parka 1)";
+        displayName = "M90 (Parka)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\characters_f_enoch\Uniforms\Gorka_01_F.p3d";
 		modelSides[] = {3,2,1,0};
-        uniformClass = "tg_u_parka_m90"; 	// class of uniform
+        uniformClass = "tg_b_u_parka_m90"; 	// class of uniform
         hiddenSelections[] = 
 		{
 			"camo_1",
@@ -416,22 +416,21 @@ class CfgVehicles
 		};  
     };
 	
-	/*
+	
 	class tg_blu_parka_m90_large: tg_blu_parka_m90
 	{
-		displayName = "M90 (Parka 2)";
-		uniformClass = "tg_u_parka_m90_large";
+		displayName = "M90 (Parka)";
+		uniformClass = "tg_b_u_parka_m90_large";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_m90_large_co.paa"
 		};
 	};
-	*/
 	
 	class tg_blu_parka_m90_winter: tg_blu_parka_m90
 	{
-		displayName = "M90 Winter (Parka 1)";
-		uniformClass = "tg_u_parka_m90_winter";
+		displayName = "M90 Winter (Parka)";
+		uniformClass = "tg_b_u_parka_m90_winter";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_m90_winter_large_co.paa"
@@ -450,50 +449,60 @@ class CfgVehicles
 	};
 	*/
 	
-	class tg_blu_parka_chocchip: tg_blu_parka_m90
+	class tg_blu_parka_3cd: tg_blu_parka_m90
 	{
-		displayName = "Parka (Chocolate Chip)";
-		uniformClass = "tg_u_parka_chocchip";
+		displayName = "Parka (DCU)";
+		uniformClass = "tg_b_u_parka_3cd";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_chocchip_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_3cd_co.paa"
 		};
 	};
 	
-	class tg_blu_parka_erdl: tg_blu_parka_m90
+	class tg_blu_parka_6cd: tg_blu_parka_m90
 	{
-		displayName = "Parka (ERDL)";
-		uniformClass = "tg_u_parka_erdl";
+		displayName = "Parka (DBDU)";
+		uniformClass = "tg_b_u_parka_6cd";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_erdl_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_6cd_co.paa"
 		};
 	};
 	
-	class tg_blu_parka_erdl_winter_bottom: tg_blu_parka_m90
+	class tg_blu_parka_m81: tg_blu_parka_m90
 	{
-		displayName = "Parka (ERDL/Winter)";
-		uniformClass = "tg_u_parka_erdl_winter_bottom";
+		displayName = "Parka (M81)";
+		uniformClass = "tg_b_u_parka_m81";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_erdl_winter_bottom_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m81_co.paa"
 		};
 	};
 	
-	class tg_blu_parka_erdl_winter_top: tg_blu_parka_m90
+	class tg_blu_parka_m81_winter_bottom: tg_blu_parka_m90
 	{
-		displayName = "Parka (Winter/ERDL)";
-		uniformClass = "tg_u_parka_erdl_winter_top";
+		displayName = "Parka (M81/Winter)";
+		uniformClass = "tg_b_u_parka_m81_winter";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_erdl_winter_top_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_m81_winter_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_m81_winter_top: tg_blu_parka_m90
+	{
+		displayName = "Parka (Winter/M81)";
+		uniformClass = "tg_b_u_parka_winter_m81";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_winter_m81_co.paa"
 		};
 	};
 	
 	class tg_blu_parka_flektarn: tg_blu_parka_m90
 	{
 		displayName = "Parka (Flektarn)";
-		uniformClass = "tg_u_parka_flektarn";
+		uniformClass = "tg_b_u_parka_flektarn";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_flektarn_co.paa"
@@ -503,7 +512,7 @@ class CfgVehicles
 	class tg_blu_parka_flektarn_alt: tg_blu_parka_m90
 	{
 		displayName = "Parka (Flektarn alt.)";
-		uniformClass = "tg_u_parka_flektarn_alt";
+		uniformClass = "tg_b_u_parka_flektarn_alt";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_flektarn_alt_co.paa"
@@ -513,7 +522,7 @@ class CfgVehicles
 	class tg_blu_parka_m90_bottom_winter_top: tg_blu_parka_m90
 	{
 		displayName = "M90 (Parka Winter/M90)";
-		uniformClass = "tg_u_parka_m90_bottom_winter_top";
+		uniformClass = "tg_b_u_parka_m90_bottom_winter_top";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_m90_bottom_winter_top_co.paa"
@@ -523,98 +532,219 @@ class CfgVehicles
 	class tg_blu_parka_m90_top_winter_bottom: tg_blu_parka_m90
 	{
 		displayName = "M90 (Parka M90/Winter)";
-		uniformClass = "tg_u_parka_m90_top_winter_bottom";
+		uniformClass = "tg_b_u_parka_m90_top_winter_bottom";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_m90_top_winter_bottom_co.paa"
 		};
 	};
 	
-	/* Need to get a better MARPAT woodland texture
-	class tg_blu_parka_marpat: tg_blu_parka_m90
-	{
-		displayName = "Parka (MARPAT Woodland)";
-		uniformClass = "tg_u_parka_marpat";
-		hiddenSelectionsTextures[] =
-		{
-			"\tg\blu\Data\tg_b_u_parka_marpat_co.paa"
-		};
-	};
-	*/
-	
 	class tg_blu_parka_marpat_desert: tg_blu_parka_m90
 	{
 		displayName = "Parka (MARPAT Desert)";
-		uniformClass = "tg_u_parka_marpat_desert";
+		uniformClass = "tg_b_u_parka_marpat_desert";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_marpat_desert_co.paa"
 		};
 	};
 	
-	class tg_blu_parka_night_chocchip: tg_blu_parka_m90
+	/* Desert Night Top */
+	class tg_blu_parka_night_3cd: tg_blu_parka_m90
 	{
-		displayName = "Parka (Night/Chocolate Chip)";
-		uniformClass = "tg_u_parka_night_chocchip";
+		displayName = "Parka (Night/DCU)";
+		uniformClass = "tg_b_u_parka_night_3cd";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_night_chocchip_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_3cd_co.paa"
 		};
 	};
 	
-	class tg_blu_parka_night_erdl: tg_blu_parka_m90
+	class tg_blu_parka_night_6cd: tg_blu_parka_m90
 	{
-		displayName = "Parka (Night/ERDL)";
-		uniformClass = "tg_u_parka_night_erdl";
+		displayName = "Parka (Night/DBDU)";
+		uniformClass = "tg_b_u_parka_night_6cd";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_night_erdl_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_6cd_co.paa"
 		};
 	};
 	
-	/* Need a better MARPAT woodland texture
-	class tg_blu_parka_night_marpat: tg_blu_parka_m90
+	class tg_blu_parka_night_m81: tg_blu_parka_m90
 	{
-		displayName = "Parka (Night/MARPAT Woodland)";
-		uniformClass = "tg_u_parka_night_marpat";
+		displayName = "Parka (Night/M81/Black)";
+		uniformClass = "tg_b_u_parka_night_m81";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_night_marpat_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_night_m81_co.paa"
 		};
 	};
-	*/
+	
+	class tg_blu_parka_night_m81_black: tg_blu_parka_m90
+	{
+		displayName = "Parka (Night/M81/Black)";
+		uniformClass = "tg_b_u_parka_night_m81_black";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_night_m81_black_co.paa"
+		};
+	};
 	
 	class tg_blu_parka_night_marpat_desert: tg_blu_parka_m90
 	{
 		displayName = "Parka (Night/MARPAT Desert)";
-		uniformClass = "tg_u_parka_night_marpat_desert";
+		uniformClass = "tg_b_u_parka_night_marpat_desert";
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_night_marpat_desert_co.paa"
 		};
 	};
 	
-	/* Need a better Tricolor texture
-	class tg_blu_parka_night_tricolor: tg_blu_parka_m90
+	/* Civ Jackets */
+	
+	/* Black */
+	class tg_blu_parka_black_3cd: tg_blu_parka_m90
 	{
-		displayName = "Parka (Night/Tricolor)";
-		uniformClass = "tg_u_parka_night_tricolor";
+		displayName = "Jacket (Black/DCU)";
+		uniformClass = "tg_b_u_parka_black_3cd";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_night_tricolor_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_black_3cd_co.paa"
 		};
 	};
 	
-	class tg_blu_parka_tricolor: tg_blu_parka_m90
+	class tg_blu_parka_black_khaki: tg_blu_parka_m90
 	{
-		displayName = "Parka (Tricolor)";
-		uniformClass = "tg_u_parka_tricolor";
+		displayName = "Jacket (Black/Khaki)";
+		uniformClass = "tg_b_u_parka_black_khaki";
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\blu\Data\tg_b_u_parka_tricolor_co.paa"
+			"\tg\blu\Data\tg_b_u_parka_black_khaki_co.paa"
 		};
 	};
-	*/
+	
+	class tg_blu_parka_black_m81: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Black/M81)";
+		uniformClass = "tg_b_u_parka_black_m81";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_black_m81_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_black_multicam: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Black/Multicam)";
+		uniformClass = "tg_b_u_parka_black_multicam";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_black_multicam_co.paa"
+		};
+	};
+	
+	/* Blue */
+	class tg_blu_parka_blue_3cd: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Blue/DCU)";
+		uniformClass = "tg_b_u_parka_blue_3cd";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_blue_3cd_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_blue_khaki: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Blue/Khaki)";
+		uniformClass = "tg_b_u_parka_blue_khaki";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_blue_khaki_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_blue_m81: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Blue/M81)";
+		uniformClass = "tg_b_u_parka_blue_m81";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_blue_m81_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_blue_multicam: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Blue/Multicam)";
+		uniformClass = "tg_b_u_parka_blue_multicam";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_blue_multicam_co.paa"
+		};
+	};
+	
+	/* Olive */
+	class tg_blu_parka_olive_3cd: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Olive/DCU)";
+		uniformClass = "tg_b_u_parka_olive_3cd";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_olive_3cd_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_olive_khaki: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Olive/Khaki)";
+		uniformClass = "tg_b_u_parka_olive_khaki";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_olive_khaki_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_olive_m81: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Olive/M81)";
+		uniformClass = "tg_b_u_parka_olive_m81";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_olive_m81_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_olive_multicam: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Olive/Multicam)";
+		uniformClass = "tg_b_u_parka_olive_multicam";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_olive_multicam_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_brown_m81: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Brown/M81)";
+		uniformClass = "tg_b_u_parka_brown_m81";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_brown_m81_co.paa"
+		};
+	};
+	
+	class tg_blu_parka_green_m81: tg_blu_parka_m90
+	{
+		displayName = "Jacket (Green/M81)";
+		uniformClass = "tg_b_u_parka_green_m81";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_green_m81_co.paa"
+		};
+	};
+	
 };
 class cfgWeapons
 {
@@ -848,7 +978,7 @@ class cfgWeapons
 	class tg_u_erdl: Uniform_Base
 	{
 		scope=2;
-		displayName="Combat Fatigues (ERDL)";
+		displayName="Combat Fatigues (M81)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -862,7 +992,7 @@ class cfgWeapons
 	class tg_u_erdl_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Recon Fatigues (ERDL)";
+		displayName="Recon Fatigues (M81)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -904,7 +1034,7 @@ class cfgWeapons
 	class tg_u_erdl_t_black: Uniform_Base
 	{
 		scope=2;
-		displayName="Combat Fatigues (ERDL) (Tee)";
+		displayName="Combat Fatigues (M81) (Tee)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -1076,7 +1206,7 @@ class cfgWeapons
 	class tg_u_survival_erdl: U_B_survival_uniform
 	{
 		scope=2;
-		displayName="Survival Fatigues (ERDL)";
+		displayName="Survival Fatigues (M81)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -1088,7 +1218,7 @@ class cfgWeapons
 		};
 	};
 	
-	class tg_u_parka_m90: Uniform_Base
+	class tg_b_u_parka_m90: Uniform_Base
     { 
 		dlc=""
         scope = 2; 
@@ -1103,23 +1233,7 @@ class cfgWeapons
         };
     };
 	
-	/*
-	class tg_u_parka_m90_large: Uniform_Base
-    { 
-        scope = 2; 
-        displayName = "M90 (Parka 2)";
-		picture = "\tg\blu\Data\logo_small.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";		
-        class ItemInfo : UniformItem { 
-			uniformModel="-";
-            uniformClass = "tg_blu_parka_m90_large"; // name of linked character
-            containerClass = "Supply50"; 
-            mass = 50; 
-        };
-    };
-	*/
-	
-	class tg_u_parka_m90_winter: Uniform_Base
+	class tg_b_u_parka_m90_winter: Uniform_Base
     { 
         scope = 2; 
         displayName = "M90 (Parka Winter)";
@@ -1133,79 +1247,77 @@ class cfgWeapons
         };
     };
 	
-	/*
-	class tg_u_parka_m90_winter_large: Uniform_Base
-    { 
-        scope = 2;
-        displayName = "M90 Winter (Parka 2)";
-		picture = "\tg\blu\Data\logo_small.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        class ItemInfo : UniformItem { 
-			uniformModel="-";
-            uniformClass = "tg_blu_parka_m90_winter_large"; // name of linked character
-            containerClass = "Supply50"; 
-            mass = 50; 
-        };
-    };
-	*/
-	
-	class tg_u_parka_chocchip: Uniform_Base
+	class tg_b_u_parka_3cd: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Chocolate Chip)";
+        displayName = "Parka (DCU)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_chocchip"; // name of linked character
+            uniformClass = "tg_blu_parka_3cd"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	class tg_u_parka_erdl: Uniform_Base
+	class tg_b_u_parka_6cd: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (ERDL)";
+        displayName = "Parka (DBDU)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_erdl"; // name of linked character
+            uniformClass = "tg_blu_parka_6cd"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	class tg_u_parka_erdl_winter_bottom: Uniform_Base
+	class tg_b_u_parka_m81: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (ERDL/Winter)";
+        displayName = "Parka (M81)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_erdl_winter_bottom"; // name of linked character
+            uniformClass = "tg_blu_parka_m81"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	class tg_u_parka_erdl_winter_top: Uniform_Base
+	class tg_b_u_parka_m81_winter: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Winter/ERDL)";
+        displayName = "Parka (M81/Winter)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_erdl_winter_top"; // name of linked character
+            uniformClass = "tg_blu_parka_m81_winter_bottom"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	class tg_u_parka_flektarn: Uniform_Base
+	class tg_b_u_parka_winter_m81: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Parka (Winter/M81)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_m81_winter_top"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_flektarn: Uniform_Base
     { 
         scope = 2; 
         displayName = "Parka (Flektarn)";
@@ -1219,7 +1331,7 @@ class cfgWeapons
         };
     };
 	
-	class tg_u_parka_flektarn_alt: Uniform_Base
+	class tg_b_u_parka_flektarn_alt: Uniform_Base
     { 
         scope = 2; 
         displayName = "Parka (Flektarn Alt.)";
@@ -1233,7 +1345,7 @@ class cfgWeapons
         };
     };
 	
-	class tg_u_parka_m90_bottom_winter_top: Uniform_Base
+	class tg_b_u_parka_m90_bottom_winter_top: Uniform_Base
     { 
         scope = 2; 
         displayName = "M90 (Parka Winter/M90)";
@@ -1247,7 +1359,7 @@ class cfgWeapons
         };
     };
 	
-	class tg_u_parka_m90_top_winter_bottom: Uniform_Base
+	class tg_b_u_parka_m90_top_winter_bottom: Uniform_Base
     { 
         scope = 2; 
         displayName = "M90 (Parka M90/Winter)";
@@ -1261,23 +1373,7 @@ class cfgWeapons
         };
     };
 	
-	/*
-	class tg_u_parka_marpat: Uniform_Base
-    { 
-        scope = 2; 
-        displayName = "Parka (MARPAT Woodland)";
-		picture = "\tg\blu\Data\logo_small.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        class ItemInfo : UniformItem {
-			uniformModel="-";
-            uniformClass = "tg_blu_parka_marpat"; // name of linked character
-            containerClass = "Supply50";
-            mass = 50;
-        };
-    };
-	*/
-	
-	class tg_u_parka_marpat_desert: Uniform_Base
+	class tg_b_u_parka_marpat_desert: Uniform_Base
     { 
         scope = 2; 
         displayName = "Parka (MARPAT Desert)";
@@ -1291,51 +1387,63 @@ class cfgWeapons
         };
     };
 	
-	class tg_u_parka_night_chocchip: Uniform_Base
+	class tg_b_u_parka_night_3cd: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Night/Chocolate Chip)";
+        displayName = "Parka (Night/DCU)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_night_chocchip"; // name of linked character
+            uniformClass = "tg_blu_parka_night_3cd"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	class tg_u_parka_night_erdl: Uniform_Base
+	class tg_b_u_parka_night_6cd: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Night/ERDL)";
+        displayName = "Parka (Night/DBDU)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_night_erdl"; // name of linked character
+            uniformClass = "tg_blu_parka_night_6cd"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	/*
-	class tg_u_parka_night_marpat: Uniform_Base
+	class tg_b_u_parka_night_m81: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Night/MARPAT Woodland)";
+        displayName = "Parka (Night/M81)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_night_marpat"; // name of linked character
+            uniformClass = "tg_blu_parka_night_m81"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
-	*/
 	
-	class tg_u_parka_night_marpat_desert: Uniform_Base
+	class tg_b_u_parka_night_m81_black: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Parka (Night/M81/Black)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_night_m81_black"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_night_marpat_desert: Uniform_Base
     { 
         scope = 2; 
         displayName = "Parka (Night/MARPAT Desert)";
@@ -1349,35 +1457,210 @@ class cfgWeapons
         };
     };
 	
-	/*
-	class tg_u_parka_night_tricolor: Uniform_Base
+	/* Civ Jacket */
+	
+	/* Black */
+	class tg_b_u_parka_black_3cd: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Night/Tricolor)";
+        displayName = "Jacket (Black/DCU)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_night_tricolor"; // name of linked character
+            uniformClass = "tg_blu_parka_black_3cd"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
 	
-	class tg_u_parka_tricolor: Uniform_Base
+	class tg_b_u_parka_black_khaki: Uniform_Base
     { 
         scope = 2; 
-        displayName = "Parka (Triclor)";
+        displayName = "Jacket (Black/Khaki)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
-            uniformClass = "tg_blu_parka_tricolor"; // name of linked character
+            uniformClass = "tg_blu_parka_black_khaki"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
     };
-	*/
+	
+	class tg_b_u_parka_black_m81: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Black/M81)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_black_m81"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_black_multicam: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Black/Multicam)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_black_multicam"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	/* Blue */
+	class tg_b_u_parka_blue_3cd: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Blue/DCU)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_blue_3cd"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_blue_khaki: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Blue/Khaki)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_blue_khaki"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_blue_m81: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Blue/M81)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_blue_m81"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_blue_multicam: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Blue/Multicam)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_blue_multicam"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	/* Olive */
+	class tg_b_u_parka_olive_3cd: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Olive/DCU)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_olive_3cd"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_olive_khaki: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Olive/Khaki)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_olive_khaki"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_olive_m81: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Olive/M81)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_olive_m81"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_olive_multicam: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Olive/Multicam)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_olive_multicam"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_brown_m81: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Brown/M81)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_brown_m81"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_green_m81: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Green/M81)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_blu_parka_green_m81"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+
+	
+
 	
 	class HeadgearItem;
 	class HelmetBase: ItemCore
