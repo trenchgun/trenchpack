@@ -968,7 +968,7 @@ class CfgVehicles
 	};
 */
 	/* PMC, Salmon/Jeans */
-
+/*
 	class tg_cup_soldier_pmc_salmon_jeans: tg_cup_soldier_fatigues
 	{
 		scope=1;
@@ -1060,6 +1060,7 @@ class CfgVehicles
 			"\tg\cup\Data\tg_cup_oakley_brn_co.paa"
 		};
 	};
+	*/
 
 };
 class cfgWeapons
@@ -1268,7 +1269,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_blk: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black (Kneepads)";
 		picture = "";
@@ -1283,7 +1284,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_rolled_blk: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -1298,7 +1299,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_blk: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black (Kneepads) (Gloves)";
 		picture = "";
@@ -1313,7 +1314,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_blk: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -1330,7 +1331,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_blk_coyote: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black (Kneepads, Coyote) (Gloves)";
 		picture = "";
@@ -1345,7 +1346,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_blk_coyote: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black (Kneepads, Coyote) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -1422,7 +1423,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_grey: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Grey (Kneepads)";
 		picture = "";
@@ -1437,7 +1438,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_rolled_grey: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Grey (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -1452,7 +1453,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_grey: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Grey (Kneepads) (Gloves)";
 		picture = "";
@@ -1467,7 +1468,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_grey: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Grey (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -1544,7 +1545,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_khk: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Brown (Kneepads)";
 		picture = "";
@@ -1559,7 +1560,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_rolled_khk: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Brown (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -1574,7 +1575,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_khk: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Brown (Kneepads) (Gloves)";
 		picture = "";
@@ -1589,7 +1590,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_khk: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Brown (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -1666,7 +1667,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_od: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Olive (Kneepads)";
 		picture = "";
@@ -1681,7 +1682,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_rolled_od: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Olive (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -1696,7 +1697,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_od: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Olive (Kneepads) (Gloves)";
 		picture = "";
@@ -1711,7 +1712,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_od: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Olive (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -1788,7 +1789,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_tan: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Tan (Kneepads)";
 		picture = "";
@@ -1803,7 +1804,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_rolled_tan: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Tan (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -1818,7 +1819,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_tan: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Tan (Kneepads) (Gloves)";
 		picture = "";
@@ -1833,7 +1834,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_tan: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Tan (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -1910,7 +1911,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_blk_grey: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black/Grey (Kneepads)";
 		picture = "";
@@ -1925,7 +1926,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_rolled_blk_grey: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black/Grey (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -1940,7 +1941,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_blk_grey: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black/Grey (Kneepads) (Gloves)";
 		picture = "";
@@ -1955,7 +1956,7 @@ class cfgWeapons
 	
 	class tg_cup_fatigues_kneepads_gloves_rolled_blk_grey: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Black/Grey (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -2094,9 +2095,10 @@ class cfgWeapons
 	
 	/* PMC Fatigues, Salmon/Jeans */
 	
+	/*
 	class tg_cup_pmc_salmon_jeans: tg_cup_fatigues
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon";
 		picture = "";
@@ -2111,7 +2113,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_rolled_salmon_jeans: tg_cup_fatigues_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon (Rolled Sleeves)";
 		picture = "";
@@ -2126,7 +2128,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_gloves_salmon_jeans: tg_cup_fatigues_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon (Gloves)";
 		picture = "";
@@ -2141,7 +2143,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_gloves_rolled_salmon_jeans: tg_cup_fatigues_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -2156,7 +2158,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_kneepads_salmon_jeans: tg_cup_fatigues_kneepads
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon (Kneepads)";
 		picture = "";
@@ -2171,7 +2173,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_kneepads_rolled_salmon_jeans: tg_cup_fatigues_kneepads_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon (Kneepads) (Rolled Sleeves)";
 		picture = "";
@@ -2186,7 +2188,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_kneepads_gloves_salmon_jeans: tg_cup_fatigues_kneepads_gloves
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "PMC Fatigues, Salmon (Kneepads) (Gloves)";
 		picture = "";
@@ -2201,7 +2203,7 @@ class cfgWeapons
 	
 	class tg_cup_pmc_kneepads_gloves_rolled_salmon_jeans: tg_cup_fatigues_kneepads_gloves_rolled
 	{
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		displayName = "Fatigues, Salmon (Kneepads) (Gloves) (Rolled Sleeves)";
 		picture = "";
@@ -2213,6 +2215,7 @@ class cfgWeapons
 			mass = 20;
 		};
 	};
+	*/
 	
 	/************/
 	/*	Vests	*/
@@ -2227,7 +2230,7 @@ class cfgWeapons
 	class tg_cup_6b3_pioneer_tan: Vest_Camo_Base
 	{
 		displayName = "6B3 (Tan)";
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_rus_1_flora_ca.paa";
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_Rus_Vest_1.p3d";
@@ -2281,6 +2284,8 @@ class cfgWeapons
 	class tg_cup_6b3_pioneer_olive: tg_cup_6b3_pioneer_tan
 	{
 		displayName = "6B3 (Olive)";
+		scope=2;
+		scopeArsenal=2;
 		hiddenSelectionsTextures[] = {
 			"\tg\cup\Data\tg_cup_6b3_equipment_olive_co.paa",
 			"\tg\cup\Data\tg_cup_6b3_vest_olive_co.paa"
@@ -2298,6 +2303,8 @@ class cfgWeapons
 	class tg_cup_6b3_pioneer_black: tg_cup_6b3_pioneer_tan
 	{
 		displayName = "6B3 (Black)";
+		scope=2;
+		scopeArsenal=2;
 		hiddenSelectionsTextures[] = {
 			"\tg\cup\Data\tg_cup_6b3_equipment_black_co.paa",
 			"\tg\cup\Data\tg_cup_6b3_vest_black_co.paa"
@@ -2315,6 +2322,8 @@ class cfgWeapons
 	class tg_cup_6b3_pioneer_black_olive: tg_cup_6b3_pioneer_tan
 	{
 		displayName = "6B3 (Black, Olive)";
+		scope=2;
+		scopeArsenal=2;
 		hiddenSelectionsTextures[] = {
 			"\tg\cup\Data\tg_cup_6b3_equipment_olive_co.paa",
 			"\tg\cup\Data\tg_cup_6b3_vest_black_co.paa"
@@ -2333,15 +2342,15 @@ class cfgWeapons
 	class tg_cup_6b43_tan: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan)";
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
 		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_tan_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -2349,8 +2358,8 @@ class cfgWeapons
 			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_tan_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_tan_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
 			};
 			armor = 20;
 			passThrough = 0.5;
@@ -2389,12 +2398,25 @@ class cfgWeapons
 	class tg_cup_6b43_tan_shoulder: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan) (Shoulders)";
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
+		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
+			};
 			mass = 105;
 			class HitpointsProtectionInfo
 			{
@@ -2440,12 +2462,25 @@ class cfgWeapons
 	class tg_cup_6b43_tan_pelvis: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan) (Pelvis)";
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
+		};
 		class ItemInfo: ItemInfo
 		{
 			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
+			};
 			mass = 100;
 			class HitpointsProtectionInfo
 			{
@@ -2491,12 +2526,25 @@ class cfgWeapons
 	class tg_cup_6b43_tan_shoulder_pelvis: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Tan) (Shoulders, Pelvis)";
-		scope=1;
+		scope=2;
 		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
 		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
+		};
 		class ItemInfo: ItemInfo
 		{
 			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
+			hiddenSelectionsTextures[] =
+			{
+				"\tg\cup\Data\tg_cup_6b43_vest_tan_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_tan_co.paa"
+			};
 			mass = 110;
 			class HitpointsProtectionInfo
 			{
@@ -2546,147 +2594,511 @@ class cfgWeapons
 	};
 	
 	/* 6b43 vest Olive */
-	class tg_cup_6b43_olive: tg_cup_6b43_tan
+	class tg_cup_6b43_olive: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Olive)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
+			};
+			armor = 20;
+			passThrough = 0.5;
+			mass = 95;
+			containerClass = "Supply140";
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
 			};
 		};
 	};
 	
-	class tg_cup_6b43_olive_shoulder: tg_cup_6b43_tan_shoulder
+	class tg_cup_6b43_olive_shoulder: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Olive) (Shoulders)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
+			};
+			mass = 105;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
 			};
 		};
 	};
 	
-	class tg_cup_6b43_olive_pelvis: tg_cup_6b43_tan_pelvis
+	class tg_cup_6b43_olive_pelvis: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Olive) (Pelvis)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
+			};
+			mass = 100;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
 			};
 		};
 	};
 	
-	class tg_cup_6b43_olive_shoulder_pelvis: tg_cup_6b43_tan_shoulder_pelvis
+	class tg_cup_6b43_olive_shoulder_pelvis: Vest_Camo_Base
 	{
-		displayName = "6B43 Vest (Olive) (Shoulder, Pelvis)";
+		displayName = "6B43 Vest (Olive) (Shoulders, Pelvis)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_olive_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_olive_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_olive_co.paa"
+			};
+			mass = 110;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
 			};
 		};
 	};
 	
 	/* 6b43 vest Black */
-	class tg_cup_6b43_black: tg_cup_6b43_tan
+	class tg_cup_6b43_black: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Black)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
+			};
+			armor = 20;
+			passThrough = 0.5;
+			mass = 95;
+			containerClass = "Supply140";
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
 			};
 		};
 	};
 	
-	class tg_cup_6b43_black_shoulder: tg_cup_6b43_tan_shoulder
+	class tg_cup_6b43_black_shoulder: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Black) (Shoulders)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_2.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_1.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
+			};
+			mass = 105;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
 			};
 		};
 	};
 	
-	class tg_cup_6b43_black_pelvis: tg_cup_6b43_tan_pelvis
+	class tg_cup_6b43_black_pelvis: Vest_Camo_Base
 	{
 		displayName = "6B43 Vest (Black) (Pelvis)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_3.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
+			};
+			mass = 100;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
 			};
 		};
 	};
 	
-	class tg_cup_6b43_black_shoulder_pelvis: tg_cup_6b43_tan_shoulder_pelvis
+	class tg_cup_6b43_black_shoulder_pelvis: Vest_Camo_Base
 	{
-		displayName = "6B43 Vest (Black) (Shoulder, Pelvis)";
+		displayName = "6B43 Vest (Black) (Shoulders, Pelvis)";
+		scope=2;
+		scopeArsenal=2;
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_6b45_1_emr_ca.paa";
+		model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+		hiddenSelections[] = {"camo", "camo1"};
 		hiddenSelectionsTextures[] =
 		{
-			"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-			"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+			"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+			"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
 		};
-		class ItemInfo: VestItem
+		class ItemInfo: ItemInfo
 		{
+			uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\ratnik\vest\CUP_6B45_4.p3d";
+			hiddenSelections[] = {"camo", "camo1"};
 			hiddenSelectionsTextures[] =
 			{
-				"\tg\cup\Data\tg_cup_6b43_vest_black_co",
-				"\tg\cup\Data\tg_cup_6b43_equipment_black_co"
+				"\tg\cup\Data\tg_cup_6b43_vest_black_co.paa",
+				"\tg\cup\Data\tg_cup_6b43_equipment_black_co.paa"
+			};
+			mass = 110;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.6;
+				};
 			};
 		};
 	};
