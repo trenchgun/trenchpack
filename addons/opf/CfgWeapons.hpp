@@ -200,6 +200,84 @@ class cfgWeapons {
             mass = 50;
         };
     };
+	
+	class tg_u_gorka_atacs_au: Uniform_Base {
+        scope = 2;
+        displayName = "Gorka (ATACS-AU)";
+		picture = "\tg\opf\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel = "-";
+            uniformClass = "tg_opf_gorka_atacs_au"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_u_gorka_atacs_au_black: Uniform_Base {
+        scope = 2;
+        displayName = "Gorka (ATACS-AU/Black)";
+		picture = "\tg\opf\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel = "-";
+            uniformClass = "tg_opf_gorka_atacs_au_black"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_u_gorka_atacs_au_ranger: Uniform_Base {
+        scope = 2;
+        displayName = "Gorka (ATACS-AU/Ranger)";
+		picture = "\tg\opf\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel = "-";
+            uniformClass = "tg_opf_gorka_atacs_au_ranger"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_u_gorka_atacs_fg: Uniform_Base {
+        scope = 2;
+        displayName = "Gorka (ATACS-FG)";
+		picture = "\tg\opf\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel = "-";
+            uniformClass = "tg_opf_gorka_atacs_fg"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_u_gorka_atacs_fg_black: Uniform_Base {
+        scope = 2;
+        displayName = "Gorka (ATACS-FG/Black)";
+		picture = "\tg\opf\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel = "-";
+            uniformClass = "tg_opf_gorka_atacs_fg_black"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_u_gorka_atacs_fg_ranger: Uniform_Base {
+        scope = 2;
+        displayName = "Gorka (ATACS-FG/Ranger)";
+		picture = "\tg\opf\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel = "-";
+            uniformClass = "tg_opf_gorka_atacs_fg_ranger"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
 
 	/*
 	class tg_u_csat_black: Uniform_Base {

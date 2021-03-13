@@ -142,6 +142,55 @@ class CfgVehicles {
             "\tg\opf\Data\tg_o_u_gorka_partizan_autumn_alt_co.paa"
         };
     };
+	
+	class tg_opf_gorka_atacs_au: tg_opf_gorka_afghan {
+        displayName = "Gorka (ATACS-AU)";
+        uniformClass = "tg_u_gorka_atacs_au";
+        hiddenSelectionsTextures[] = {
+            "\tg\opf\Data\tg_o_u_gorka_atacs_au_co.paa"
+        };
+    };
+	
+	class tg_opf_gorka_atacs_au_black: tg_opf_gorka_afghan {
+        displayName = "Gorka (ATACS-AU/Black)";
+        uniformClass = "tg_u_gorka_atacs_au_black";
+        hiddenSelectionsTextures[] = {
+            "\tg\opf\Data\tg_o_u_gorka_atacs_au_black_co.paa"
+        };
+    };
+	
+	class tg_opf_gorka_atacs_au_ranger: tg_opf_gorka_afghan {
+        displayName = "Gorka (ATACS-AU/Ranger)";
+        uniformClass = "tg_u_gorka_atacs_au_ranger";
+        hiddenSelectionsTextures[] = {
+            "\tg\opf\Data\tg_o_u_gorka_atacs_au_ranger_co.paa"
+        };
+    };
+	
+	class tg_opf_gorka_atacs_fg: tg_opf_gorka_afghan {
+        displayName = "Gorka (ATACS-FG)";
+        uniformClass = "tg_u_gorka_atacs_fg";
+        hiddenSelectionsTextures[] = {
+            "\tg\opf\Data\tg_o_u_gorka_atacs_fg_co.paa"
+        };
+    };
+	
+	class tg_opf_gorka_atacs_fg_black: tg_opf_gorka_afghan {
+        displayName = "Gorka (ATACS-FG/Black)";
+        uniformClass = "tg_u_gorka_atacs_fg_black";
+        hiddenSelectionsTextures[] = {
+            "\tg\opf\Data\tg_o_u_gorka_atacs_fg_black_co.paa"
+        };
+    };
+	
+	class tg_opf_gorka_atacs_fg_ranger: tg_opf_gorka_afghan {
+        displayName = "Gorka (ATACS-FG/Ranger)";
+        uniformClass = "tg_u_gorka_atacs_fg_ranger";
+        hiddenSelectionsTextures[] = {
+            "\tg\opf\Data\tg_o_u_gorka_atacs_fg_ranger_co.paa"
+        };
+    };
+
 
 /* NOT WORKING? Try to fix later
     class tg_opf_csat_black: O_Soldier_base_F {

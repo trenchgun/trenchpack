@@ -376,32 +376,6 @@ class CfgVehicles
 		};
 	};
 	
-	/* Fatigues, Black (Coyote kneepads) */
-	
-	class tg_cup_soldier_fatigues_kneepads_gloves_blk_coyote: tg_cup_soldier_fatigues_kneepads_gloves
-	{
-		scope=1;
-		displayName="Fatigues, Black (Kneepads, Coyote) (Gloves)";
-		uniformClass="tg_cup_fatigues_kneepads_gloves_blk_coyote";
-		hiddenSelectionsTextures[]=
-		{
-			"\tg\cup\Data\tg_cup_fatigues_black_kneepads_coyote_co.paa",
-			"\tg\cup\Data\tg_cup_oakley_grn_co.paa"
-		};
-	};
-	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk_coyote: tg_cup_soldier_fatigues_kneepads_gloves_rolled
-	{
-		scope=1;
-		displayName="Fatigues, Black (Kneepads, Coyote) (Gloves) (Rolled Sleeves)";
-		uniformClass="tg_cup_fatigues_kneepads_gloves_rolled_blk";
-		hiddenSelectionsTextures[]=
-		{
-			"\tg\cup\Data\tg_cup_fatigues_black_kneepads_coyote_co.paa",
-			"\tg\cup\Data\tg_cup_oakley_grn_co.paa"
-		};
-	};
-
 	/* Fatigues, Grey */
 
 	class tg_cup_soldier_fatigues_grey: tg_cup_soldier_fatigues
@@ -1322,38 +1296,6 @@ class cfgWeapons
 		{
 			uniformModel = "";
 			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk;
-			containerClass = Supply60;
-			mass = 20;
-		};
-	};
-	
-	/* Fatigues, Black (Coyote Kneepads) */
-	
-	class tg_cup_fatigues_kneepads_gloves_blk_coyote: tg_cup_fatigues_kneepads_gloves
-	{
-		scope=2;
-		scopeArsenal=2;
-		displayName = "Fatigues, Black (Kneepads, Coyote) (Gloves)";
-		picture = "";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_blk_coyote;
-			containerClass = Supply60;
-			mass = 20;
-		};
-	};
-	
-	class tg_cup_fatigues_kneepads_gloves_rolled_blk_coyote: tg_cup_fatigues_kneepads_gloves_rolled
-	{
-		scope=2;
-		scopeArsenal=2;
-		displayName = "Fatigues, Black (Kneepads, Coyote) (Gloves) (Rolled Sleeves)";
-		picture = "";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk_coyote;
 			containerClass = Supply60;
 			mass = 20;
 		};

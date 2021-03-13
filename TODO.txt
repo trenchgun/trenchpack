@@ -1,0 +1,119 @@
+# TODO List
+
+Standardize Uniform names:
+
+Fatigues
+
+Vanilla:
+	- CBRN Suit --> CBRN Suit (Yellow)
+		- OG paa's: 	grabbed
+		- template:		done
+		- textures:		done
+		- config:
+	- Granit Suit --> assorted colored parkas and pants, MC black
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:		done
+		- config:		
+	- Advanced Modular Helmet --> (grey, multicam, M81, ATAC AU/FG)
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:		grey, ATACS AU/FG
+		- config:		grey, ATACS AU/FG, mc, dnc
+	- Modular Carrier Vest --> (grey, multicam, M81, ATAC AU/FG)
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:		grey
+		- config:		grey
+	- Enchanced Combat Helmet --> (black, OD, M81, multicam, grey)
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:		grey, black, olive, coyote
+		- config:
+	- Combat Helmet --> (black, OD, M81, multicam, grey, blue, red)
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:		grey, black, olive, coyote
+		- config:
+	- Light Combat Helmet --> (black, OD, M81, multicam, grey, blue, red)
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:		grey, black, olive, coyote
+		- config:
+	- Rangemaster Belt --> try to make a backpack?
+	- Kipchak Vest --> try to make a backpack?
+	- Assault Pack --> grey
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+	- AAF Helmet --> Yellow CBRN
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+	- Viper Rig --> Coyote, Tan
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+	
+CUP:
+	- Masking Suit --> (OD, Grey, Black, Coyote, Khaki, mixed camo)
+		- OG paa's: 	n/a
+		- template: 	DL'd from CUP repository
+		- textures: 
+		- config:
+	- CPC --> (black, grey, OD, ATACS AU/FG)
+		- OG paa's: 	grabbed
+		- template:
+		- textures:
+		- config:
+	- JPC --> (black, grey, OD, ATACS AU/FG)
+		- OG paa's:		grabbed
+		- template:
+		- textures:
+		- config:
+	- GER Protection Vest --> (black, coyote, od, multicam, etc)
+		- OG paa's:		grabbed
+		- template:
+		- textures:
+		- config:
+	- Nomex Flight Suit --> (black, grey)
+		- OG paa's:		grabbed
+		- template:
+		- textures:
+		- config:
+	- GER Uniform --> (black, grey, OD, coyote, mixed camo, more plainclothes)
+		- OG paa's:		grabbed
+		- template:		done
+		- textures:
+		- config:
+	- 
+	- CIV Rocker --> mess around with this // LOW PRIORITY
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+
+RHS:
+	- ACH --> (Black, ATACS AU/FG)
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+	- MICH --> (Black, ATACS AU/FG)
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+	- FAST Covered --> (Black, ATACS AU/FG)
+		- OG paa's:
+		- template:
+		- textures:
+		- config:
+
+Misc:
+	- look at that god awful texture for the super long range TFAR pack
+	
+	

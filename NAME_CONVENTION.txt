@@ -1,0 +1,8 @@
+tag
+pbo tag
+uniform/vest/helmet
+primary name
+secondary name
+co
+
+tg_b_u_name_alt_co

@@ -185,6 +185,52 @@ class CfgVehicles
 		model="\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
 		uniformClass="tg_u_erdl_rs";
 	};
+	class tg_soldier_multicamblack: tg_soldier_black
+	{
+		displayName="Soldier (Mutlicam Black)";
+		uniformClass="tg_u_multicamblack";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_multicamblack_co.paa"
+		};
+	};
+	class tg_soldier_multicamblack_rs: tg_soldier_multicamblack
+	{
+		displayName="Soldier (Multicam Black) (RS)";
+		model="\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
+		uniformClass="tg_u_multicamblack_rs";
+	};
+	class tg_soldier_multicamblack_black: tg_soldier_black
+	{
+		displayName="Soldier (Mutlicam Black/Black)";
+		uniformClass="tg_u_multicamblack_black";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_softshellblack_multicamblack_co.paa"
+		};
+	};
+	class tg_soldier_multicamblack_black_rs: tg_soldier_multicamblack_black
+	{
+		displayName="Soldier (Multicam Black/Black) (RS)";
+		model="\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
+		uniformClass="tg_u_multicamblack_black_rs";
+	};
+	class tg_soldier_multicamblack_grey: tg_soldier_black
+	{
+		displayName="Soldier (Mutlicam Black/Grey)";
+		uniformClass="tg_u_multicamblack_grey";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_softshellgrey_multicamblack_co.paa"
+		};
+	};
+	class tg_soldier_multicamblack_black_rs: tg_soldier_multicamblack_grey
+	{
+		displayName="Soldier (Multicam Black/Grey) (RS)";
+		model="\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
+		uniformClass="tg_u_multicamblack_grey_rs";
+	};
+	
 	class tg_soldier_mcam_t_black: B_Soldier_base_F
 	{
 		author="Trenchgun";
@@ -260,6 +306,125 @@ class CfgVehicles
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
 	};
+	
+	
+	// ctrg fatigues (with collar)
+	class tg_soldier_erdl_collar: B_Soldier_base_F
+	{
+		author = "Trenchgun";
+		scope = 0;
+		displayName = "Soldier ERDL (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+		model = "a3\characters_f_exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+		modelSides = {3,1};
+		uniformClass = "tg_u_erdl_collar";
+		hiddenSelections[] = 
+		{
+			"Camo",
+			"Insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\A3\Characters_F\BLUFOR\Data\clothing1.rvmat"
+		};
+	};
+	
+	class tg_soldier_sage_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Sage (Collar)";
+		uniformClass = "tg_u_erdl_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
+		};
+	};
+	
+	class tg_soldier_mtp_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier MTP (Collar)";
+		uniformClass = "tg_u_mtp_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"A3\Characters_F\BLUFOR\Data\clothing1_co.paa"
+		};
+	};
+	
+	class tg_soldier_black_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Black (Collar)";
+		uniformClass = "tg_u_black_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_black_co.paa"
+		};
+	};
+	
+	class tg_soldier_black_tan_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Black/Tan (Collar)";
+		uniformClass = "tg_u_black_tan_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_black2_co.paa"
+		};
+	};
+	
+	class tg_soldier_ghost_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Ghost (Collar)";
+		uniformClass = "tg_u_ghost_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_ghost_co.paa"
+		};
+	};
+	
+	class tg_soldier_tan_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Tan (Collar)";
+		uniformClass = "tg_u_soldier_tan_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_tan_co.paa"
+		};
+	};
+	
+	class tg_soldier_multicamblack_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Multicam Black (Collar)";
+		uniformClass = "tg_u_multicamblack_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_multicamblack_co.paa"
+		};
+	};
+	
+	class tg_soldier_multicamblack_black_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Multicam Black (Softshell Black) (Collar)";
+		uniformClass = "tg_u_multicamblack_black_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_softshellblack_multicamblack_co.paa"
+		};
+	};
+	
+	class tg_soldier_multicamblack_grey_collar: tg_soldier_erdl_collar
+	{
+		displayName = "Soldier Multicam Black (Softshell Grey) (Collar)";
+		uniformClass = "tg_u_multicamblack_grey_collar";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_softshellgrey_multicamblack_co.paa"
+		};
+	};
+	
+	
+	// survival fatigues
 	class B_soldier_survival_F: B_Soldier_base_F
 	{
 	};
@@ -539,15 +704,6 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_blu_parka_marpat_desert: tg_blu_parka_m90
-	{
-		displayName = "Parka (MARPAT Desert)";
-		uniformClass = "tg_b_u_parka_marpat_desert";
-		hiddenSelectionsTextures[] =
-		{
-			"\tg\blu\Data\tg_b_u_parka_marpat_desert_co.paa"
-		};
-	};
 	
 	/* Desert Night Top */
 	class tg_blu_parka_night_3cd: tg_blu_parka_m90
@@ -580,25 +736,8 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_blu_parka_night_m81_black: tg_blu_parka_m90
-	{
-		displayName = "Parka (Night/M81/Black)";
-		uniformClass = "tg_b_u_parka_night_m81_black";
-		hiddenSelectionsTextures[] =
-		{
-			"\tg\blu\Data\tg_b_u_parka_night_m81_black_co.paa"
-		};
-	};
+
 	
-	class tg_blu_parka_night_marpat_desert: tg_blu_parka_m90
-	{
-		displayName = "Parka (Night/MARPAT Desert)";
-		uniformClass = "tg_b_u_parka_night_marpat_desert";
-		hiddenSelectionsTextures[] =
-		{
-			"\tg\blu\Data\tg_b_u_parka_night_marpat_desert_co.paa"
-		};
-	};
 	
 	/* Civ Jackets */
 	
@@ -768,7 +907,7 @@ class cfgWeapons
 	class tg_u_black_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (Black) (RS)";
+		displayName="Fatigues (Black) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -796,7 +935,7 @@ class cfgWeapons
 	class tg_u_black2_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (Black/Tan) (RS)";
+		displayName="Fatigues (Black/Tan) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -824,7 +963,7 @@ class cfgWeapons
 	class tg_u_tan_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (Tan) (RS)";
+		displayName="Fatigues (Tan) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -852,7 +991,7 @@ class cfgWeapons
 	class tg_u_erdl_arvn_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (ERDL ARVN) (RS)";
+		displayName="Fatigues (ERDL ARVN) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -880,7 +1019,7 @@ class cfgWeapons
 	class tg_u_erdl_oce_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (ERDL Ocean) (RS)";
+		displayName="Fatigues (ERDL Ocean) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -908,7 +1047,7 @@ class cfgWeapons
 	class tg_u_ghost_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (Ghost) (RS)";
+		displayName="Fatigues (Ghost) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -936,7 +1075,7 @@ class cfgWeapons
 	class tg_u_nwupat_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Fatigues (NWUPAT) (RS)";
+		displayName="Fatigues (NWUPAT) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -950,7 +1089,7 @@ class cfgWeapons
 	class tg_u_sage: Uniform_Base
 	{
 		scope=2;
-		displayName="Combat Fatigues (Sage)";
+		displayName="Fatigues (Sage)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -964,7 +1103,7 @@ class cfgWeapons
 	class tg_u_sage_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Recon Fatigues (Sage)";
+		displayName="Fatigues (Sage) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -992,13 +1131,97 @@ class cfgWeapons
 	class tg_u_erdl_rs: Uniform_Base
 	{
 		scope=2;
-		displayName="Recon Fatigues (M81)";
+		displayName="Fatigues (M81) (Rolled Sleeves)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="tg_soldier_erdl_rs";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
+	class tg_u_multicamblack: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_soldier_multicamblack";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
+	class tg_u_multicamblack_rs: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black) (Rolled Sleeves)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_soldier_multicamblack_rs";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
+	class tg_u_multicamblack_black: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black/Black)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_soldier_multicamblack_black";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
+	class tg_u_multicamblack_black_rs: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black/Black) (Rolled Sleeves)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_soldier_multicamblack_black_rs";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
+	class tg_u_multicamblack_grey: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black/Grey)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_soldier_multicamblack_grey";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
+	class tg_u_multicamblack_grey_rs: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black/Grey) (Rolled Sleeves)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_soldier_multicamblack_grey_rs";
 			containerClass="Supply50";
 			mass=50;
 		};
@@ -1034,7 +1257,7 @@ class cfgWeapons
 	class tg_u_erdl_t_black: Uniform_Base
 	{
 		scope=2;
-		displayName="Combat Fatigues (M81) (Tee)";
+		displayName="Fatigues (M81) (Tee)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -1048,7 +1271,7 @@ class cfgWeapons
 	class tg_u_sage_t_black: Uniform_Base
 	{
 		scope=2;
-		displayName="Combat Fatigues (Sage) (Tee)";
+		displayName="Fatigues (Sage) (Tee)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -1136,7 +1359,7 @@ class cfgWeapons
 	class tg_u_survival_erdl_arvn: U_B_survival_uniform
 	{
 		scope=2;
-		displayName="Survival Fatigues (ERDL_ARVN)";
+		displayName="Survival Fatigues (ERDL ARVN)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		class ItemInfo: UniformItem
@@ -1222,7 +1445,7 @@ class cfgWeapons
     { 
 		dlc=""
         scope = 2; 
-        displayName = "M90 (Parka)";
+        displayName = "Parka (M90)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem { 
@@ -1236,7 +1459,7 @@ class cfgWeapons
 	class tg_b_u_parka_m90_winter: Uniform_Base
     { 
         scope = 2; 
-        displayName = "M90 (Parka Winter)";
+        displayName = "Parka (M90 Winter)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
@@ -1348,7 +1571,7 @@ class cfgWeapons
 	class tg_b_u_parka_m90_bottom_winter_top: Uniform_Base
     { 
         scope = 2; 
-        displayName = "M90 (Parka Winter/M90)";
+        displayName = "Parka (Winter/M90)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
@@ -1362,26 +1585,12 @@ class cfgWeapons
 	class tg_b_u_parka_m90_top_winter_bottom: Uniform_Base
     { 
         scope = 2; 
-        displayName = "M90 (Parka M90/Winter)";
+        displayName = "Parka (M90/Winter)";
 		picture = "\tg\blu\Data\logo_small.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         class ItemInfo : UniformItem {
 			uniformModel="-";
             uniformClass = "tg_blu_parka_m90_top_winter_bottom"; // name of linked character
-            containerClass = "Supply50";
-            mass = 50;
-        };
-    };
-	
-	class tg_b_u_parka_marpat_desert: Uniform_Base
-    { 
-        scope = 2; 
-        displayName = "Parka (MARPAT Desert)";
-		picture = "\tg\blu\Data\logo_small.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        class ItemInfo : UniformItem {
-			uniformModel="-";
-            uniformClass = "tg_blu_parka_marpat_desert"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
@@ -1424,34 +1633,6 @@ class cfgWeapons
         class ItemInfo : UniformItem {
 			uniformModel="-";
             uniformClass = "tg_blu_parka_night_m81"; // name of linked character
-            containerClass = "Supply50";
-            mass = 50;
-        };
-    };
-	
-	class tg_b_u_parka_night_m81_black: Uniform_Base
-    { 
-        scope = 2; 
-        displayName = "Parka (Night/M81/Black)";
-		picture = "\tg\blu\Data\logo_small.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        class ItemInfo : UniformItem {
-			uniformModel="-";
-            uniformClass = "tg_blu_parka_night_m81_black"; // name of linked character
-            containerClass = "Supply50";
-            mass = 50;
-        };
-    };
-	
-	class tg_b_u_parka_night_marpat_desert: Uniform_Base
-    { 
-        scope = 2; 
-        displayName = "Parka (Night/MARPAT Desert)";
-		picture = "\tg\blu\Data\logo_small.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        class ItemInfo : UniformItem {
-			uniformModel="-";
-            uniformClass = "tg_blu_parka_night_marpat_desert"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };
@@ -1658,8 +1839,147 @@ class cfgWeapons
         };
     };
 	
-
 	
+	erdl, sage, mtp, black, black2, ghost, tan, multicam black 
+	class tg_b_u_erdl_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (M81) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_erdl_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_sage_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Sage) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_sage_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_mtp_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (MTP) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_mtp_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_black_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Black) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_black_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_black_tan_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Black/Tan) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_black_tan_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_ghost_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Ghost) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_ghost_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_tan_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Tan) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_tan_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_multicamblack_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Multicam Black) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_multicamblack_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_multicamblack_black_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Multicam Black/Black) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_multicamblack_black_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
+	
+	class tg_b_u_multicamblack_grey_collar: Uniform_Base
+	{
+		scope = 2;
+		displayName = "Fatigues (Multicam Black/Grey) (Collar)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_soldier_multicamblack_grey_collar"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+	};
 
 	
 	class HeadgearItem;
