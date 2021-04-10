@@ -86,7 +86,7 @@ class CfgVehicles
 	
 	*/
 	
-	class tg_cup_soldier_fatigues: B_Soldier_base_F
+	class tg_cup_fatigues: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -109,7 +109,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled: B_Soldier_base_F
+	class tg_cup_fatigues_rolled: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -132,7 +132,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves: B_Soldier_base_F
+	class tg_cup_fatigues_gloves: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -158,7 +158,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled: B_Soldier_base_F
+	class tg_cup_fatigues_gloves_rolled: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -184,7 +184,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads: B_Soldier_base_F
+	class tg_cup_fatigues_kneepads: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -207,7 +207,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled: B_Soldier_base_F
+	class tg_cup_fatigues_kneepads_rolled: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -230,7 +230,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves: B_Soldier_base_F
+	class tg_cup_fatigues_kneepads_gloves: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -256,7 +256,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled: B_Soldier_base_F
+	class tg_cup_fatigues_kneepads_gloves_rolled: B_Soldier_base_F
 	{
 		author="trenchgun";
 		dlc="CUP_Units";
@@ -284,7 +284,7 @@ class CfgVehicles
 
 	/* Fatigues, Black */
 
-	class tg_cup_soldier_fatigues_blk: tg_cup_soldier_fatigues
+	class tg_cup_fatigues_blk: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="Fatigues, Black";
@@ -295,7 +295,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled_blk: tg_cup_soldier_fatigues_rolled
+	class tg_cup_fatigues_rolled_blk: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black (Rolled Sleeves)";
@@ -306,7 +306,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_blk: tg_cup_soldier_fatigues_gloves
+	class tg_cup_fatigues_gloves_blk: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Black (Gloves)";
@@ -318,7 +318,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled_blk: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_fatigues_gloves_rolled_blk: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black (Gloves) (Rolled Sleeves)";
@@ -330,7 +330,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_blk: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_fatigues_kneepads_blk: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="Fatigues, Black (Kneepads)";
@@ -341,7 +341,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled_blk: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_fatigues_kneepads_rolled_blk: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black (Kneepads) (Rolled Sleeves)";
@@ -352,7 +352,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_blk: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_fatigues_kneepads_gloves_blk: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Black (Kneepads) (Gloves)";
@@ -364,7 +364,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_fatigues_kneepads_gloves_rolled_blk: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -378,7 +378,7 @@ class CfgVehicles
 	
 	/* Fatigues, Grey */
 
-	class tg_cup_soldier_fatigues_grey: tg_cup_soldier_fatigues
+	class tg_cup_fatigues_grey: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="Fatigues, Grey";
@@ -389,7 +389,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled_grey: tg_cup_soldier_fatigues_rolled
+	class tg_cup_fatigues_rolled_grey: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Rolled Sleeves)";
@@ -400,7 +400,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_grey: tg_cup_soldier_fatigues_gloves
+	class tg_cup_fatigues_gloves_grey: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Gloves)";
@@ -412,7 +412,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled_grey: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_fatigues_gloves_rolled_grey: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Gloves) (Rolled Sleeves)";
@@ -424,7 +424,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_grey: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_fatigues_kneepads_grey: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Kneepads)";
@@ -435,7 +435,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled_grey: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_fatigues_kneepads_rolled_grey: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Kneepads) (Rolled Sleeves)";
@@ -446,7 +446,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_grey: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_fatigues_kneepads_gloves_grey: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Kneepads) (Gloves)";
@@ -458,7 +458,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_grey: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_fatigues_kneepads_gloves_rolled_grey: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Grey (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -472,7 +472,7 @@ class CfgVehicles
 
 	/* Fatigues, Khaki */
 
-	class tg_cup_soldier_fatigues_khk: tg_cup_soldier_fatigues
+	class tg_cup_fatigues_khk: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="Fatigues, Brown";
@@ -483,7 +483,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled_khk: tg_cup_soldier_fatigues_rolled
+	class tg_cup_fatigues_rolled_khk: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Rolled Sleeves)";
@@ -494,7 +494,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_khk: tg_cup_soldier_fatigues_gloves
+	class tg_cup_fatigues_gloves_khk: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Gloves)";
@@ -506,7 +506,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled_khk: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_fatigues_gloves_rolled_khk: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Gloves) (Rolled Sleeves)";
@@ -518,7 +518,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_khk: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_fatigues_kneepads_khk: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Kneepads)";
@@ -529,7 +529,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled_khk: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_fatigues_kneepads_rolled_khk: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Kneepads) (Rolled Sleeves)";
@@ -540,7 +540,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_khk: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_fatigues_kneepads_gloves_khk: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Kneepads) (Gloves)";
@@ -552,7 +552,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_khk: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_fatigues_kneepads_gloves_rolled_khk: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Brown (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -566,7 +566,7 @@ class CfgVehicles
 
 	/* Fatigues, Olive */
 
-	class tg_cup_soldier_fatigues_od: tg_cup_soldier_fatigues
+	class tg_cup_fatigues_od: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="Fatigues, Olive";
@@ -577,7 +577,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled_od: tg_cup_soldier_fatigues_rolled
+	class tg_cup_fatigues_rolled_od: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Rolled Sleeves)";
@@ -588,7 +588,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_od: tg_cup_soldier_fatigues_gloves
+	class tg_cup_fatigues_gloves_od: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Gloves)";
@@ -600,7 +600,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled_od: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_fatigues_gloves_rolled_od: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Gloves) (Rolled Sleeves)";
@@ -612,7 +612,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_od: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_fatigues_kneepads_od: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Kneepads)";
@@ -623,7 +623,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled_od: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_fatigues_kneepads_rolled_od: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Kneepads) (Rolled Sleeves)";
@@ -634,7 +634,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_od: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_fatigues_kneepads_gloves_od: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Kneepads) (Gloves)";
@@ -646,7 +646,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_od: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_fatigues_kneepads_gloves_rolled_od: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Olive (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -660,7 +660,7 @@ class CfgVehicles
 
 	/* Fatigues, Tan */
 
-	class tg_cup_soldier_fatigues_tan: tg_cup_soldier_fatigues
+	class tg_cup_fatigues_tan: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="Fatigues, Tan";
@@ -671,7 +671,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled_tan: tg_cup_soldier_fatigues_rolled
+	class tg_cup_fatigues_rolled_tan: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Rolled Sleeves)";
@@ -682,7 +682,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_tan: tg_cup_soldier_fatigues_gloves
+	class tg_cup_fatigues_gloves_tan: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Gloves)";
@@ -694,7 +694,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled_tan: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_fatigues_gloves_rolled_tan: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Gloves) (Rolled Sleeves)";
@@ -706,7 +706,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_tan: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_fatigues_kneepads_tan: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Kneepads)";
@@ -717,7 +717,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled_tan: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_fatigues_kneepads_rolled_tan: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Kneepads) (Rolled Sleeves)";
@@ -728,7 +728,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_tan: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_fatigues_kneepads_gloves_tan: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Kneepads) (Gloves)";
@@ -740,7 +740,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_tan: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_fatigues_kneepads_gloves_rolled_tan: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Tan (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -754,7 +754,7 @@ class CfgVehicles
 
 	/* Fatigues, Black/Grey */
 
-	class tg_cup_soldier_fatigues_blk_grey: tg_cup_soldier_fatigues
+	class tg_cup_fatigues_blk_grey: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey";
@@ -765,7 +765,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_rolled_blk_grey: tg_cup_soldier_fatigues_rolled
+	class tg_cup_fatigues_rolled_blk_grey: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Rolled Sleeves)";
@@ -776,7 +776,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_blk_grey: tg_cup_soldier_fatigues_gloves
+	class tg_cup_fatigues_gloves_blk_grey: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Gloves)";
@@ -788,7 +788,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_gloves_rolled_blk_grey: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_fatigues_gloves_rolled_blk_grey: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Gloves) (Rolled Sleeves)";
@@ -800,7 +800,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_blk_grey: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_fatigues_kneepads_blk_grey: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Kneepads)";
@@ -811,7 +811,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_rolled_blk_grey: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_fatigues_kneepads_rolled_blk_grey: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Kneepads) (Rolled Sleeves)";
@@ -822,7 +822,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_blk_grey: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_fatigues_kneepads_gloves_blk_grey: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Kneepads) (Gloves)";
@@ -834,7 +834,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk_grey: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_fatigues_kneepads_gloves_rolled_blk_grey: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="Fatigues, Black/Grey (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -849,7 +849,7 @@ class CfgVehicles
 
 	/* PMC, Plaid Green/Jeans */
 /*
-	class tg_cup_soldier_pmc_green_jeans: tg_cup_soldier_fatigues
+	class tg_cup_pmc_green_jeans: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans";
@@ -860,7 +860,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_rolled_green_jeans: tg_cup_soldier_fatigues_rolled
+	class tg_cup_pmc_rolled_green_jeans: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Rolled Sleeves)";
@@ -871,7 +871,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_gloves_green_jeans: tg_cup_soldier_fatigues_gloves
+	class tg_cup_pmc_gloves_green_jeans: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Gloves)";
@@ -883,7 +883,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_gloves_rolled_green_jeans: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_pmc_gloves_rolled_green_jeans: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Gloves) (Rolled Sleeves)";
@@ -895,7 +895,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_green_jeans: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_pmc_kneepads_green_jeans: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Kneepads)";
@@ -906,7 +906,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_rolled_green_jeans: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_pmc_kneepads_rolled_green_jeans: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Kneepads) (Rolled Sleeves)";
@@ -917,7 +917,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_gloves_green_jeans: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_pmc_kneepads_gloves_green_jeans: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Kneepads) (Gloves)";
@@ -929,7 +929,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_gloves_rolled_green_jeans: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_pmc_kneepads_gloves_rolled_green_jeans: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Plaid/Jeans (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -943,7 +943,7 @@ class CfgVehicles
 */
 	/* PMC, Salmon/Jeans */
 /*
-	class tg_cup_soldier_pmc_salmon_jeans: tg_cup_soldier_fatigues
+	class tg_cup_pmc_salmon_jeans: tg_cup_fatigues
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans";
@@ -954,7 +954,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_rolled_salmon_jeans: tg_cup_soldier_fatigues_rolled
+	class tg_cup_pmc_rolled_salmon_jeans: tg_cup_fatigues_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Rolled Sleeves)";
@@ -965,7 +965,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_gloves_salmon_jeans: tg_cup_soldier_fatigues_gloves
+	class tg_cup_pmc_gloves_salmon_jeans: tg_cup_fatigues_gloves
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Gloves)";
@@ -977,7 +977,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_gloves_rolled_salmon_jeans: tg_cup_soldier_fatigues_gloves_rolled
+	class tg_cup_pmc_gloves_rolled_salmon_jeans: tg_cup_fatigues_gloves_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Gloves) (Rolled Sleeves)";
@@ -989,7 +989,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_salmon_jeans: tg_cup_soldier_fatigues_kneepads
+	class tg_cup_pmc_kneepads_salmon_jeans: tg_cup_fatigues_kneepads
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Kneepads)";
@@ -1000,7 +1000,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_rolled_salmon_jeans: tg_cup_soldier_fatigues_kneepads_rolled
+	class tg_cup_pmc_kneepads_rolled_salmon_jeans: tg_cup_fatigues_kneepads_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Kneepads) (Rolled Sleeves)";
@@ -1011,7 +1011,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_gloves_salmon_jeans: tg_cup_soldier_fatigues_kneepads_gloves
+	class tg_cup_pmc_kneepads_gloves_salmon_jeans: tg_cup_fatigues_kneepads_gloves
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Kneepads) (Gloves)";
@@ -1023,7 +1023,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_cup_soldier_pmc_kneepads_gloves_rolled_salmon_jeans: tg_cup_soldier_fatigues_kneepads_gloves_rolled
+	class tg_cup_pmc_kneepads_gloves_rolled_salmon_jeans: tg_cup_fatigues_kneepads_gloves_rolled
 	{
 		scope=1;
 		displayName="PMC Fatigues, Salmon/Jeans (Kneepads) (Gloves) (Rolled Sleeves)";
@@ -1054,7 +1054,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues;
+			uniformClass = tg_cup_fatigues;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1071,7 +1071,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled;
+			uniformClass = tg_cup_fatigues_rolled;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1088,7 +1088,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves;
+			uniformClass = tg_cup_fatigues_gloves;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1105,7 +1105,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled;
+			uniformClass = tg_cup_fatigues_gloves_rolled;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1122,7 +1122,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads;
+			uniformClass = tg_cup_fatigues_kneepads;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1139,7 +1139,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled;
+			uniformClass = tg_cup_fatigues_kneepads_rolled;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1156,7 +1156,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves;
+			uniformClass = tg_cup_fatigues_kneepads_gloves;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1173,7 +1173,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1190,7 +1190,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_blk;
+			uniformClass = tg_cup_fatigues_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1205,7 +1205,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled_blk;
+			uniformClass = tg_cup_fatigues_rolled_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1220,7 +1220,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_blk;
+			uniformClass = tg_cup_fatigues_gloves_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1235,7 +1235,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled_blk;
+			uniformClass = tg_cup_fatigues_gloves_rolled_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1250,7 +1250,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_blk;
+			uniformClass = tg_cup_fatigues_kneepads_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1265,7 +1265,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled_blk;
+			uniformClass = tg_cup_fatigues_kneepads_rolled_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1280,7 +1280,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_blk;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1295,7 +1295,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled_blk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1312,7 +1312,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_grey;
+			uniformClass = tg_cup_fatigues_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1327,7 +1327,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled_grey;
+			uniformClass = tg_cup_fatigues_rolled_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1342,7 +1342,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_grey;
+			uniformClass = tg_cup_fatigues_gloves_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1357,7 +1357,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled_grey;
+			uniformClass = tg_cup_fatigues_gloves_rolled_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1372,7 +1372,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_grey;
+			uniformClass = tg_cup_fatigues_kneepads_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1387,7 +1387,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled_grey;
+			uniformClass = tg_cup_fatigues_kneepads_rolled_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1402,7 +1402,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_grey;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1417,7 +1417,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_grey;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1434,7 +1434,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_khk;
+			uniformClass = tg_cup_fatigues_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1449,7 +1449,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled_khk;
+			uniformClass = tg_cup_fatigues_rolled_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1464,7 +1464,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_khk;
+			uniformClass = tg_cup_fatigues_gloves_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1479,7 +1479,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled_khk;
+			uniformClass = tg_cup_fatigues_gloves_rolled_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1494,7 +1494,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_khk;
+			uniformClass = tg_cup_fatigues_kneepads_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1509,7 +1509,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled_khk;
+			uniformClass = tg_cup_fatigues_kneepads_rolled_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1524,7 +1524,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_khk;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1539,7 +1539,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_khk;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled_khk;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1556,7 +1556,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_od;
+			uniformClass = tg_cup_fatigues_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1571,7 +1571,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled_od;
+			uniformClass = tg_cup_fatigues_rolled_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1586,7 +1586,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_od;
+			uniformClass = tg_cup_fatigues_gloves_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1601,7 +1601,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled_od;
+			uniformClass = tg_cup_fatigues_gloves_rolled_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1616,7 +1616,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_od;
+			uniformClass = tg_cup_fatigues_kneepads_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1631,7 +1631,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled_od;
+			uniformClass = tg_cup_fatigues_kneepads_rolled_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1646,7 +1646,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_od;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1661,7 +1661,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_od;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled_od;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1678,7 +1678,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_tan;
+			uniformClass = tg_cup_fatigues_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1693,7 +1693,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled_tan;
+			uniformClass = tg_cup_fatigues_rolled_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1708,7 +1708,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_tan;
+			uniformClass = tg_cup_fatigues_gloves_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1723,7 +1723,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled_tan;
+			uniformClass = tg_cup_fatigues_gloves_rolled_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1738,7 +1738,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_tan;
+			uniformClass = tg_cup_fatigues_kneepads_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1753,7 +1753,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled_tan;
+			uniformClass = tg_cup_fatigues_kneepads_rolled_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1768,7 +1768,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_tan;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1783,7 +1783,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_tan;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled_tan;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1800,7 +1800,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_blk_grey;
+			uniformClass = tg_cup_fatigues_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1815,7 +1815,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_rolled_blk_grey;
+			uniformClass = tg_cup_fatigues_rolled_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1830,7 +1830,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_blk_grey;
+			uniformClass = tg_cup_fatigues_gloves_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1845,7 +1845,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_gloves_rolled_blk_grey;
+			uniformClass = tg_cup_fatigues_gloves_rolled_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1860,7 +1860,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_blk_grey;
+			uniformClass = tg_cup_fatigues_kneepads_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1875,7 +1875,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_rolled_blk_grey;
+			uniformClass = tg_cup_fatigues_kneepads_rolled_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1890,7 +1890,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_blk_grey;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1905,7 +1905,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_fatigues_kneepads_gloves_rolled_blk_grey;
+			uniformClass = tg_cup_fatigues_kneepads_gloves_rolled_blk_grey;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1922,7 +1922,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_green_jeans;
+			uniformClass = tg_cup_pmc_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1937,7 +1937,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_rolled_green_jeans;
+			uniformClass = tg_cup_pmc_rolled_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1952,7 +1952,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_gloves_green_jeans;
+			uniformClass = tg_cup_pmc_gloves_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1967,7 +1967,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_gloves_rolled_green_jeans;
+			uniformClass = tg_cup_pmc_gloves_rolled_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1982,7 +1982,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_green_jeans;
+			uniformClass = tg_cup_pmc_kneepads_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -1997,7 +1997,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_rolled_green_jeans;
+			uniformClass = tg_cup_pmc_kneepads_rolled_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2012,7 +2012,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_green_jeans;
+			uniformClass = tg_cup_pmc_kneepads_gloves_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2027,7 +2027,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_rolled_green_jeans;
+			uniformClass = tg_cup_pmc_kneepads_gloves_rolled_green_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2047,7 +2047,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_salmon_jeans;
+			uniformClass = tg_cup_pmc_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2062,7 +2062,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_rolled_salmon_jeans;
+			uniformClass = tg_cup_pmc_rolled_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2077,7 +2077,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_gloves_salmon_jeans;
+			uniformClass = tg_cup_pmc_gloves_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2092,7 +2092,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_gloves_rolled_salmon_jeans;
+			uniformClass = tg_cup_pmc_gloves_rolled_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2107,7 +2107,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_salmon_jeans;
+			uniformClass = tg_cup_pmc_kneepads_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2122,7 +2122,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_rolled_salmon_jeans;
+			uniformClass = tg_cup_pmc_kneepads_rolled_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2137,7 +2137,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_salmon_jeans;
+			uniformClass = tg_cup_pmc_kneepads_gloves_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};
@@ -2152,7 +2152,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "";
-			uniformClass = tg_cup_soldier_pmc_kneepads_gloves_rolled_salmon_jeans;
+			uniformClass = tg_cup_pmc_kneepads_gloves_rolled_salmon_jeans;
 			containerClass = Supply60;
 			mass = 20;
 		};

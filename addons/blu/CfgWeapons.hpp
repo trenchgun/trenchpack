@@ -4,6 +4,7 @@ class CfgWeapons
 	class ItemCore;
 	class UniformItem;
 	class Uniform_Base;
+	class Item_Base_F;
 	class tg_b_u_black: Uniform_Base
 	{
 		scope=2;
@@ -231,7 +232,7 @@ class CfgWeapons
 	class tg_b_u_erdl: Uniform_Base
 	{
 		scope=2;
-		displayName="Combat Fatigues (M81)";
+		displayName="Fatigues (M81)";
 		picture="\tg\blu\Data\logo_small.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		class ItemInfo: UniformItem
@@ -424,6 +425,20 @@ class CfgWeapons
 			mass=50;
 		};
 	};
+	class tg_b_u_mcamb_t: Uniform_Base
+	{
+		scope=2;
+		displayName="Fatigues (Multicam Black) (Tee)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="tg_b_mcamb_t";
+			containerClass="Supply50";
+			mass=50;
+		};
+	};
 	class U_B_survival_uniform: Uniform_Base
 	{
 	};
@@ -549,6 +564,21 @@ class CfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformClass="tg_b_survival_erdl";
+			containerClass="Supply50";
+			mass=50;
+			uniformType="Neopren";
+		};
+	};
+	
+	class tg_b_u_survival_mcamb: U_B_survival_uniform
+	{
+		scope=2;
+		displayName="Survival Fatigues (Multicam Black)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformClass="tg_b_survival_mcamb";
 			containerClass="Supply50";
 			mass=50;
 			uniformType="Neopren";
@@ -925,6 +955,34 @@ class CfgWeapons
         };
     };
 	
+	class tg_b_u_parka_brown_3cd: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Brown/DCU)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_b_parka_brown_3cd"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_brown_khaki: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Brown/Khaki)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_b_parka_brown_khaki"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
 	class tg_b_u_parka_brown_m81: Uniform_Base
     { 
         scope = 2; 
@@ -939,6 +997,49 @@ class CfgWeapons
         };
     };
 	
+	class tg_b_u_parka_brown_multicam: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Brown/Multicam)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_b_parka_brown_multicam"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	
+	class tg_b_u_parka_green_3cd: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Green/DCU)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_b_parka_green_3cd"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_green_khaki: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Green/Khaki)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_b_parka_green_khaki"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
 	class tg_b_u_parka_green_m81: Uniform_Base
     { 
         scope = 2; 
@@ -948,6 +1049,20 @@ class CfgWeapons
         class ItemInfo : UniformItem {
 			uniformModel="-";
             uniformClass = "tg_b_parka_green_m81"; // name of linked character
+            containerClass = "Supply50";
+            mass = 50;
+        };
+    };
+	
+	class tg_b_u_parka_green_multicam: Uniform_Base
+    { 
+        scope = 2; 
+        displayName = "Jacket (Green/Multicam)";
+		picture = "\tg\blu\Data\logo_small.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        class ItemInfo : UniformItem {
+			uniformModel="-";
+            uniformClass = "tg_b_parka_green_multicam"; // name of linked character
             containerClass = "Supply50";
             mass = 50;
         };

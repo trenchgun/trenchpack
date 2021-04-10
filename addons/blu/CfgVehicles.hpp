@@ -148,7 +148,7 @@ class CfgVehicles
 		};
 	};
 	
-	class tg_b_sage_rs: tg_sage
+	class tg_b_sage_rs: tg_b_sage
 	{
 		displayName="Soldier (Sage) (RS)";
 		model="\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
@@ -306,24 +306,32 @@ class CfgVehicles
 		};
 	};
 	
+	class tg_b_mcamb_t: tg_b_mcam_t_black
+	{
+		displayName="Soldier (Multicam Black) (Tee)";
+		uniformClass="tg_b_u_mcamb_t_black";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_mcamb_co.paa",
+			"a3\characters_f\common\data\basicbody_black_co.paa"
+		};
+	};
+	
 	
 	// CTRG Stealth Fatigues
 	// advanced Gen3 fatigues with the collar up
-	
-	class tg_b_erdl_collar: B_Soldier_base_F
+	//class B_STRG_Soldier_base_F;
+	class B_CTRG_Soldier_F;
+	//class tg_b_erdl_collar: B_CTRG_Soldier_base_F
+	class tg_b_erdl_collar: B_CTRG_Soldier_F
 	{
-		author = "Trenchgun";
-		scope = 0;
-		displayName = "Soldier ERDL (Collar)";
-		picture = "\tg\blu\Data\logo_small.paa";
-		model = "a3\characters_f_exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
-		modelSides = {3,1};
-		uniformClass = "tg_b_u_erdl_collar";
-		hiddenSelections[] = 
-		{
-			"Camo",
-			"Insignia"
-		};
+		author="Trenchgun";
+		scope=1;
+		displayName="Soldier ERDL (Collar)";
+		picture="\tg\blu\Data\logo_small.paa";
+		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+		modelSides[]+={0,1,2,3,6};
+		uniformClass="tg_b_u_erdl_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"
@@ -336,8 +344,8 @@ class CfgVehicles
 	
 	class tg_b_sage_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Sage (Collar)";
-		uniformClass = "tg_b_u_erdl_collar";
+		displayName="Soldier Sage (Collar)";
+		uniformClass="tg_b_u_erdl_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"
@@ -346,8 +354,8 @@ class CfgVehicles
 	
 	class tg_b_mtp_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier MTP (Collar)";
-		uniformClass = "tg_b_u_mtp_collar";
+		displayName="Soldier MTP (Collar)";
+		uniformClass="tg_b_u_mtp_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"A3\Characters_F\BLUFOR\Data\clothing1_co.paa"
@@ -356,8 +364,8 @@ class CfgVehicles
 	
 	class tg_b_black_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Black (Collar)";
-		uniformClass = "tg_b_u_black_collar";
+		displayName="Soldier Black (Collar)";
+		uniformClass="tg_b_u_black_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_black_co.paa"
@@ -366,8 +374,8 @@ class CfgVehicles
 	
 	class tg_b_black_tan_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Black/Tan (Collar)";
-		uniformClass = "tg_b_u_black_tan_collar";
+		displayName="Soldier Black/Tan (Collar)";
+		uniformClass="tg_b_u_black_tan_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_black2_co.paa"
@@ -376,8 +384,8 @@ class CfgVehicles
 	
 	class tg_b_ghost_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Ghost (Collar)";
-		uniformClass = "tg_b_u_ghost_collar";
+		displayName="Soldier Ghost (Collar)";
+		uniformClass="tg_b_u_ghost_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_ghost_co.paa"
@@ -386,8 +394,8 @@ class CfgVehicles
 	
 	class tg_b_tan_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Tan (Collar)";
-		uniformClass = "tg_b_u_soldier_tan_collar";
+		displayName="Soldier Tan (Collar)";
+		uniformClass="tg_b_u_soldier_tan_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_tan_co.paa"
@@ -396,8 +404,8 @@ class CfgVehicles
 	
 	class tg_b_mcamb_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Multicam Black (Collar)";
-		uniformClass = "tg_b_u_mcamb_collar";
+		displayName="Soldier Multicam Black (Collar)";
+		uniformClass="tg_b_u_mcamb_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_mcamb_co.paa"
@@ -406,8 +414,8 @@ class CfgVehicles
 	
 	class tg_b_mcamb_black_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Multicam Black (Softshell Black) (Collar)";
-		uniformClass = "tg_b_u_mcamb_black_collar";
+		displayName="Soldier Multicam Black (Softshell Black) (Collar)";
+		uniformClass="tg_b_u_mcamb_black_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_softshellblack_mcamb_co.paa"
@@ -416,8 +424,8 @@ class CfgVehicles
 	
 	class tg_b_mcamb_grey_collar: tg_b_erdl_collar
 	{
-		displayName = "Soldier Multicam Black (Softshell Grey) (Collar)";
-		uniformClass = "tg_b_u_mcamb_grey_collar";
+		displayName="Soldier Multicam Black (Softshell Grey) (Collar)";
+		uniformClass="tg_b_u_mcamb_grey_collar";
 		hiddenSelectionsTextures[]=
 		{
 			"\tg\blu\Data\tg_b_u_softshellgrey_mcamb_co.paa"
@@ -561,6 +569,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa",
+			"a3\characters_f\common\data\diver_suit_co",
+			"a3\characters_f\common\data\basicbody_black_co.paa"
+		};
+	};
+	
+	class tg_b_survival_mcamb: tg_b_survival_black
+	{
+		displayName="Survival (Multicam Black)";
+		hiddenSelectionsTextures[]=
+		{
+			"\tg\blu\Data\tg_b_u_mcamb_co.paa",
 			"a3\characters_f\common\data\diver_suit_co",
 			"a3\characters_f\common\data\basicbody_black_co.paa"
 		};
@@ -866,6 +885,28 @@ class CfgVehicles
 		};
 	};
 	
+	
+	/* Brown */
+	class tg_b_parka_brown_3cd: tg_b_parka_m90
+	{
+		displayName = "Jacket (Brown/DCU)";
+		uniformClass = "tg_b_u_parka_brown_3cd";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_brown_3cd_co.paa"
+		};
+	};
+	
+	class tg_b_parka_brown_khaki: tg_b_parka_m90
+	{
+		displayName = "Jacket (Brown/Khaki)";
+		uniformClass = "tg_b_u_parka_brown_khaki";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_brown_khaki_co.paa"
+		};
+	};
+	
 	class tg_b_parka_brown_m81: tg_b_parka_m90
 	{
 		displayName = "Jacket (Brown/M81)";
@@ -876,6 +917,37 @@ class CfgVehicles
 		};
 	};
 	
+	class tg_b_parka_brown_multicam: tg_b_parka_m90
+	{
+		displayName = "Jacket (Brown/Multicam)";
+		uniformClass = "tg_b_u_parka_brown_multicam";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_brown_multicam_co.paa"
+		};
+	};
+	
+	/* Green */
+	class tg_b_parka_green_3cd: tg_b_parka_m90
+	{
+		displayName = "Jacket (Green/DCU)";
+		uniformClass = "tg_b_u_parka_green_3cd";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_green_3cd_co.paa"
+		};
+	};
+	
+	class tg_b_parka_green_khaki: tg_b_parka_m90
+	{
+		displayName = "Jacket (Green/Khaki)";
+		uniformClass = "tg_b_u_parka_green_khaki";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_green_khaki_co.paa"
+		};
+	};
+	
 	class tg_b_parka_green_m81: tg_b_parka_m90
 	{
 		displayName = "Jacket (Green/M81)";
@@ -883,6 +955,16 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"\tg\blu\Data\tg_b_u_parka_green_m81_co.paa"
+		};
+	};
+	
+	class tg_b_parka_green_multicam: tg_b_parka_m90
+	{
+		displayName = "Jacket (Green/Multicam)";
+		uniformClass = "tg_b_u_parka_green_multicam";
+		hiddenSelectionsTextures[] =
+		{
+			"\tg\blu\Data\tg_b_u_parka_green_multicam_co.paa"
 		};
 	};
 	

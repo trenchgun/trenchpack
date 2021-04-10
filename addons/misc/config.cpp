@@ -1652,7 +1652,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "AMH (Khaki)";
+		displayName = "AMH (Tan)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1665,7 +1665,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "AMH (Headset) (Khaki)";
+		displayName = "AMH (Headset) (Tan)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1678,7 +1678,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "AMH (Ears) (Khaki)";
+		displayName = "AMH (Ears) (Tan)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1691,7 +1691,7 @@ class cfgWeapons
 		author = "Trenchgun";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "AMH (Chops) (Khaki)";
+		displayName = "AMH (Chops) (Tan)";
 		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_khaki_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1812,7 +1812,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (ATACS AU)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_atacs_au_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
@@ -1825,33 +1825,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Headset) (ATACS AU)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
-		hiddenSelectionsTextures[] = 
-		{
-			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
-		};
-	};
-	
-	class tg_h_fast_ears_olive_atacs_au: fast_ears_base
-	{
-		author = "Trenchgun";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "AMH (Ears) (ATACS AU)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_ears_olive_ca.paa";
-		hiddenSelectionsTextures[] = 
-		{
-			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
-		};
-	};
-	
-	class tg_h_fast_chops_olive_atacs_au: fast_chops_base
-	{
-		author = "Trenchgun";
-		scope = 2;
-		scopeArsenal = 2;
-		displayName = "AMH (Chops) (ATACS AU)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_chops_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_atacs_au_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_atacs_au_co.paa"
@@ -1892,7 +1866,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (ATACS FG)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_atacs_fg_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_atacs_fg_co.paa"
@@ -1905,7 +1879,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Headset) (ATACS FG)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_olive_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_atacs_fg_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_atacs_fg_co.paa"
@@ -1946,7 +1920,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Multicam)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_multicam_co.paa"
@@ -1959,7 +1933,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Headset) (Mutlicam)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_multicam_co.paa"
@@ -1973,7 +1947,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Multicam/Black)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_3_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_multicam_2_co.paa"
@@ -1986,7 +1960,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Headset) (Mutlicam/Black)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_3_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_multicam_2_co.paa"
@@ -2000,7 +1974,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Multicam/Sand)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_2_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_multicam_3_co.paa"
@@ -2013,10 +1987,64 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		displayName = "AMH (Headset) (Mutlicam/Sand)";
-		picture = "\tg\misc\Data\UI\icon_m_h_fast_khaki_ca.paa";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_2_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\tg\misc\Data\tg_m_h_fast_multicam_3_co.paa"
+		};
+	};
+	
+	// Multicam Black
+	class tg_h_fast_multicam_black: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Multicam Black)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_black_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_black_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_multicam_black: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Headset) (Mutlicam/Black)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_multicam_black_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_multicam_black_co.paa"
+		};
+	};
+	
+	// Desert Night
+	class tg_h_fast_desert_night: fast_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Desert Night)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_desert_night_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_desert_night_co.paa"
+		};
+	};
+	
+	class tg_h_fast_headset_desert_night: fast_headset_base
+	{
+		author = "Trenchgun";
+		scope = 2;
+		scopeArsenal = 2;
+		displayName = "AMH (Headset) (Desert Night)";
+		picture = "\tg\misc\Data\UI\icon_m_h_fast_desert_night_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\tg\misc\Data\tg_m_h_fast_desert_night_co.paa"
 		};
 	};
 

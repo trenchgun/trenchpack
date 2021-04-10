@@ -13,7 +13,8 @@ class CfgPatches
 			"A3_Characters_F_INDEP",
 			"A3_Characters_F_Common",
 			"A3_Characters_F_BLUFOR",
-			"A3_Characters_F_epc"
+			"A3_Characters_F_epc",
+			"A3_Characters_F_exp"
 		};
 	};
 };
